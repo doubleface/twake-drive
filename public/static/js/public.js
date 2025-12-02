@@ -11,7 +11,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"empty\":\"src-components-Error-empty__empty-H_rqId\"}";
-        // 1764578892170
+        // 1764670078637
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -43,7 +43,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"oops\":\"src-components-Error-oops__oops-tmW_k0\"}";
-        // 1764578892003
+        // 1764670078607
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -75,7 +75,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"HistoryRowRevisionLoader\":\"src-components-FileHistory-styles__HistoryRowRevisionLoader-s7WQmY\",\"historyRowRevisionLoader\":\"src-components-FileHistory-styles__HistoryRowRevisionLoader-s7WQmY\"}";
-        // 1764578892153
+        // 1764670078332
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -107,7 +107,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-path-backdrop\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-backdrop-TyeU_h\",\"filPathBackdrop\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-backdrop-TyeU_h\",\"fil-path-title\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-title-aCzlut\",\"filPathTitle\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-title-aCzlut\",\"fil-path-link\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-U6EV5L\",\"filPathLink\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-U6EV5L\",\"fil-path-separator\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-separator-WV9SPe\",\"filPathSeparator\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-separator-WV9SPe\",\"fil-path-down\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-down-LyIea7\",\"filPathDown\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-down-LyIea7\",\"fil-path-current-name\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-name-JLxV4q\",\"filPathCurrentName\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-name-JLxV4q\",\"fil-path-current\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-cPEoG2\",\"filPathCurrent\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-cPEoG2\",\"deployed\":\"src-modules-breadcrumb-styles-breadcrumb__deployed-kCktIa\",\"inlined\":\"src-modules-breadcrumb-styles-breadcrumb__inlined-xWDi_r\",\"fil-path-link-name\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-name-PHg6mX\",\"filPathLinkName\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-name-PHg6mX\",\"mobile\":\"src-modules-breadcrumb-styles-breadcrumb__mobile-jH0Xm0\"}";
-        // 1764578892213
+        // 1764670078739
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -139,7 +139,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"file-opener\":\"src-modules-filelist-fileopener__file-opener-OXxveU\",\"fileOpener\":\"src-modules-filelist-fileopener__file-opener-OXxveU\",\"file-opener__a\":\"src-modules-filelist-fileopener__file-opener__a-NazX3K\",\"fileOpenerA\":\"src-modules-filelist-fileopener__file-opener__a-NazX3K\"}";
-        // 1764578892175
+        // 1764670078737
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -171,7 +171,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"viewer-wrapper-with-bar\":\"src-modules-viewer-barviewer__viewer-wrapper-with-bar-ogLUUQ\",\"viewerWrapperWithBar\":\"src-modules-viewer-barviewer__viewer-wrapper-with-bar-ogLUUQ\"}";
-        // 1764578891370
+        // 1764670078599
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -203,7 +203,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"separator\":\"src-modules-views-OnlyOffice-Toolbar-styles__separator-ffrmrr\",\"fileName\":\"src-modules-views-OnlyOffice-Toolbar-styles__fileName-Zx_7SQ\",\"filename-renameInput\":\"src-modules-views-OnlyOffice-Toolbar-styles__filename-renameInput-ce_3bJ\",\"filenameRenameInput\":\"src-modules-views-OnlyOffice-Toolbar-styles__filename-renameInput-ce_3bJ\"}";
-        // 1764578892209
+        // 1764670078741
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -235,7 +235,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-mobileactionmenu-file-name\":\"src-styles-actionmenu__fil-mobileactionmenu-file-name-FOFt9U\",\"filMobileactionmenuFileName\":\"src-styles-actionmenu__fil-mobileactionmenu-file-name-FOFt9U\",\"fil-mobileactionmenu-file-ext\":\"src-styles-actionmenu__fil-mobileactionmenu-file-ext-XTXQ2_\",\"filMobileactionmenuFileExt\":\"src-styles-actionmenu__fil-mobileactionmenu-file-ext-XTXQ2_\",\"fil-mobileactionmenu-category\":\"src-styles-actionmenu__fil-mobileactionmenu-category-_mj6k3\",\"filMobileactionmenuCategory\":\"src-styles-actionmenu__fil-mobileactionmenu-category-_mj6k3\"}";
-        // 1764578892178
+        // 1764670078737
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -267,7 +267,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-dropzone-active\":\"src-styles-dropzone__fil-dropzone-active-YW0vEC\",\"filDropzoneActive\":\"src-styles-dropzone__fil-dropzone-active-YW0vEC\",\"fil-dropzone-teaser\":\"src-styles-dropzone__fil-dropzone-teaser-jqF5rR\",\"filDropzoneTeaser\":\"src-styles-dropzone__fil-dropzone-teaser-jqF5rR\",\"fil-dropzone-teaser-claudy\":\"src-styles-dropzone__fil-dropzone-teaser-claudy-kM8PRQ\",\"filDropzoneTeaserClaudy\":\"src-styles-dropzone__fil-dropzone-teaser-claudy-kM8PRQ\",\"pulse\":\"src-styles-dropzone__pulse-DX6aoj\",\"fil-dropzone-teaser-content\":\"src-styles-dropzone__fil-dropzone-teaser-content-U9Ywcc\",\"filDropzoneTeaserContent\":\"src-styles-dropzone__fil-dropzone-teaser-content-U9Ywcc\",\"fil-dropzone-teaser-folder\":\"src-styles-dropzone__fil-dropzone-teaser-folder-tY6xHu\",\"filDropzoneTeaserFolder\":\"src-styles-dropzone__fil-dropzone-teaser-folder-tY6xHu\"}";
-        // 1764578891911
+        // 1764670078585
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -299,7 +299,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-content-row-selected\":\"src-styles-filelist__fil-content-row-selected-NCUdFl\",\"filContentRowSelected\":\"src-styles-filelist__fil-content-row-selected-NCUdFl\",\"fil-content-column-selected\":\"src-styles-filelist__fil-content-column-selected-fP4zEq\",\"filContentColumnSelected\":\"src-styles-filelist__fil-content-column-selected-fP4zEq\",\"fil-file-list-container\":\"src-styles-filelist__fil-file-list-container-U34Psk\",\"filFileListContainer\":\"src-styles-filelist__fil-file-list-container-U34Psk\",\"fil-content-cell\":\"src-styles-filelist__fil-content-cell-ZXKNDz\",\"filContentCell\":\"src-styles-filelist__fil-content-cell-ZXKNDz\",\"fil-content-row\":\"src-styles-filelist__fil-content-row-WbMkV0\",\"filContentRow\":\"src-styles-filelist__fil-content-row-WbMkV0\",\"fil-content-file-select\":\"src-styles-filelist__fil-content-file-select-R1SsnF\",\"filContentFileSelect\":\"src-styles-filelist__fil-content-file-select-R1SsnF\",\"fil-content-row--center\":\"src-styles-filelist__fil-content-row--center-wh4_tE\",\"filContentRowCenter\":\"src-styles-filelist__fil-content-row--center-wh4_tE\",\"fil-content-row-actioned\":\"src-styles-filelist__fil-content-row-actioned-svyW32\",\"filContentRowActioned\":\"src-styles-filelist__fil-content-row-actioned-svyW32\",\"fil-content-row-disabled\":\"src-styles-filelist__fil-content-row-disabled-RsrFh9\",\"filContentRowDisabled\":\"src-styles-filelist__fil-content-row-disabled-RsrFh9\",\"fil-content-row-bigger\":\"src-styles-filelist__fil-content-row-bigger-vYPd5W\",\"filContentRowBigger\":\"src-styles-filelist__fil-content-row-bigger-vYPd5W\",\"fil-content-head-grid-view\":\"src-styles-filelist__fil-content-head-grid-view-QVt0Zo\",\"filContentHeadGridView\":\"src-styles-filelist__fil-content-head-grid-view-QVt0Zo\",\"fil-content-column\":\"src-styles-filelist__fil-content-column-zvhV6P\",\"filContentColumn\":\"src-styles-filelist__fil-content-column-zvhV6P\",\"fil-content-file-action\":\"src-styles-filelist__fil-content-file-action-Vjb5wW\",\"filContentFileAction\":\"src-styles-filelist__fil-content-file-action-Vjb5wW\",\"fil-content-column-virtualized\":\"src-styles-filelist__fil-content-column-virtualized-snn5dT\",\"filContentColumnVirtualized\":\"src-styles-filelist__fil-content-column-virtualized-snn5dT\",\"fil-content-column--center\":\"src-styles-filelist__fil-content-column--center-IdWreC\",\"filContentColumnCenter\":\"src-styles-filelist__fil-content-column--center-IdWreC\",\"fil-content-grid-item\":\"src-styles-filelist__fil-content-grid-item-Dl6arl\",\"filContentGridItem\":\"src-styles-filelist__fil-content-grid-item-Dl6arl\",\"fil-content-column-disabled\":\"src-styles-filelist__fil-content-column-disabled-GTZSVk\",\"filContentColumnDisabled\":\"src-styles-filelist__fil-content-column-disabled-GTZSVk\",\"fil-content-column-actioned\":\"src-styles-filelist__fil-content-column-actioned-fr7pq7\",\"filContentColumnActioned\":\"src-styles-filelist__fil-content-column-actioned-fr7pq7\",\"fil-content-ext\":\"src-styles-filelist__fil-content-ext-BGBCPR\",\"filContentExt\":\"src-styles-filelist__fil-content-ext-BGBCPR\",\"fil-content-header\":\"src-styles-filelist__fil-content-header-dS5Zie\",\"filContentHeader\":\"src-styles-filelist__fil-content-header-dS5Zie\",\"fil-content-header--capitalize\":\"src-styles-filelist__fil-content-header--capitalize-AJkmls\",\"filContentHeaderCapitalize\":\"src-styles-filelist__fil-content-header--capitalize-AJkmls\",\"fil-content-mobile-head\":\"src-styles-filelist__fil-content-mobile-head-fz7lsM\",\"filContentMobileHead\":\"src-styles-filelist__fil-content-mobile-head-fz7lsM\",\"fil-content-mobile-header\":\"src-styles-filelist__fil-content-mobile-header-S8lq5j\",\"filContentMobileHeader\":\"src-styles-filelist__fil-content-mobile-header-S8lq5j\",\"fil-content-header-sortableasc\":\"src-styles-filelist__fil-content-header-sortableasc-rwsr0v\",\"filContentHeaderSortableasc\":\"src-styles-filelist__fil-content-header-sortableasc-rwsr0v\",\"fil-content-header-sortabledesc\":\"src-styles-filelist__fil-content-header-sortabledesc-lYA0Lo\",\"filContentHeaderSortabledesc\":\"src-styles-filelist__fil-content-header-sortabledesc-lYA0Lo\",\"fil-content-header-sortasc\":\"src-styles-filelist__fil-content-header-sortasc-O3WruI\",\"filContentHeaderSortasc\":\"src-styles-filelist__fil-content-header-sortasc-O3WruI\",\"fil-content-header-sortdesc\":\"src-styles-filelist__fil-content-header-sortdesc-rOhhgT\",\"filContentHeaderSortdesc\":\"src-styles-filelist__fil-content-header-sortdesc-rOhhgT\",\"fil-content-file\":\"src-styles-filelist__fil-content-file-PjsoJV\",\"filContentFile\":\"src-styles-filelist__fil-content-file-PjsoJV\",\"fil-content-file-openable\":\"src-styles-filelist__fil-content-file-openable-w4fSbg\",\"filContentFileOpenable\":\"src-styles-filelist__fil-content-file-openable-w4fSbg\",\"fil-content-grid-view\":\"src-styles-filelist__fil-content-grid-view-IcpmNR\",\"filContentGridView\":\"src-styles-filelist__fil-content-grid-view-IcpmNR\",\"fil-content-status\":\"src-styles-filelist__fil-content-status-mlUIFz\",\"filContentStatus\":\"src-styles-filelist__fil-content-status-mlUIFz\",\"fil-file-filename-and-ext\":\"src-styles-filelist__fil-file-filename-and-ext-OiCHoH\",\"filFileFilenameAndExt\":\"src-styles-filelist__fil-file-filename-and-ext-OiCHoH\",\"fil-file-path\":\"src-styles-filelist__fil-file-path-QpjKUQ\",\"filFilePath\":\"src-styles-filelist__fil-file-path-QpjKUQ\",\"fil-file-description\":\"src-styles-filelist__fil-file-description-b0n8tl\",\"filFileDescription\":\"src-styles-filelist__fil-file-description-b0n8tl\",\"fil-file-thumbnail\":\"src-styles-filelist__fil-file-thumbnail-rpHzt4\",\"filFileThumbnail\":\"src-styles-filelist__fil-file-thumbnail-rpHzt4\",\"fil-file-thumbnail--spinner\":\"src-styles-filelist__fil-file-thumbnail--spinner-O6sI3a\",\"filFileThumbnailSpinner\":\"src-styles-filelist__fil-file-thumbnail--spinner-O6sI3a\",\"fil-file-thumbnail-image\":\"src-styles-filelist__fil-file-thumbnail-image-aSwcGt\",\"filFileThumbnailImage\":\"src-styles-filelist__fil-file-thumbnail-image-aSwcGt\",\"fil-content-shared\":\"src-styles-filelist__fil-content-shared-zvv5t8\",\"filContentShared\":\"src-styles-filelist__fil-content-shared-zvv5t8\",\"fil-content-shared-vz\":\"src-styles-filelist__fil-content-shared-vz-KeE43d\",\"filContentSharedVz\":\"src-styles-filelist__fil-content-shared-vz-KeE43d\",\"fil-content-date\":\"src-styles-filelist__fil-content-date-HtLOvl\",\"filContentDate\":\"src-styles-filelist__fil-content-date-HtLOvl\",\"fil-content-size\":\"src-styles-filelist__fil-content-size-g8UdsX\",\"filContentSize\":\"src-styles-filelist__fil-content-size-g8UdsX\",\"fil-content-narrow\":\"src-styles-filelist__fil-content-narrow-_7PCcR\",\"filContentNarrow\":\"src-styles-filelist__fil-content-narrow-_7PCcR\",\"fil-content-header-status\":\"src-styles-filelist__fil-content-header-status-Zu9sRa\",\"filContentHeaderStatus\":\"src-styles-filelist__fil-content-header-status-Zu9sRa\",\"fil-content-offline\":\"src-styles-filelist__fil-content-offline-BQezVT\",\"filContentOffline\":\"src-styles-filelist__fil-content-offline-BQezVT\",\"fil-content-header-sharing-shortcut\":\"src-styles-filelist__fil-content-header-sharing-shortcut-uJBLGr\",\"filContentHeaderSharingShortcut\":\"src-styles-filelist__fil-content-header-sharing-shortcut-uJBLGr\",\"fil-content-sharing-shortcut\":\"src-styles-filelist__fil-content-sharing-shortcut-n0_0Cc\",\"filContentSharingShortcut\":\"src-styles-filelist__fil-content-sharing-shortcut-n0_0Cc\",\"fil-content-header-action\":\"src-styles-filelist__fil-content-header-action-DaVBEb\",\"filContentHeaderAction\":\"src-styles-filelist__fil-content-header-action-DaVBEb\",\"fil-content-body--selectable\":\"src-styles-filelist__fil-content-body--selectable-ysGYEP\",\"filContentBodySelectable\":\"src-styles-filelist__fil-content-body--selectable-ysGYEP\",\"fil-file\":\"src-styles-filelist__fil-file-uCZ8mV\",\"filFile\":\"src-styles-filelist__fil-file-uCZ8mV\",\"fil-file-filename\":\"src-styles-filelist__fil-file-filename-hp04pN\",\"filFileFilename\":\"src-styles-filelist__fil-file-filename-hp04pN\",\"fil-file-filename-wrapper\":\"src-styles-filelist__fil-file-filename-wrapper-Zw5My2\",\"filFileFilenameWrapper\":\"src-styles-filelist__fil-file-filename-wrapper-Zw5My2\",\"fil-file-filename-spinner\":\"src-styles-filelist__fil-file-filename-spinner-SOjBXM\",\"filFileFilenameSpinner\":\"src-styles-filelist__fil-file-filename-spinner-SOjBXM\",\"fil-file-description--path\":\"src-styles-filelist__fil-file-description--path-CEAtUK\",\"filFileDescriptionPath\":\"src-styles-filelist__fil-file-description--path-CEAtUK\",\"fil-file-certifications\":\"src-styles-filelist__fil-file-certifications-dSxenJ\",\"filFileCertifications\":\"src-styles-filelist__fil-file-certifications-dSxenJ\",\"fil-file-certifications--separator\":\"src-styles-filelist__fil-file-certifications--separator-J9D6MP\",\"filFileCertificationsSeparator\":\"src-styles-filelist__fil-file-certifications--separator-J9D6MP\",\"fil-file-certifications--icon\":\"src-styles-filelist__fil-file-certifications--icon-jdevT6\",\"filFileCertificationsIcon\":\"src-styles-filelist__fil-file-certifications--icon-jdevT6\",\"fil-file-infos\":\"src-styles-filelist__fil-file-infos-p_2xRT\",\"filFileInfos\":\"src-styles-filelist__fil-file-infos-p_2xRT\",\"fil-file-shared\":\"src-styles-filelist__fil-file-shared-fz8CXG\",\"filFileShared\":\"src-styles-filelist__fil-file-shared-fz8CXG\",\"fil-file-shared-icon\":\"src-styles-filelist__fil-file-shared-icon-zuB17W\",\"filFileSharedIcon\":\"src-styles-filelist__fil-file-shared-icon-zuB17W\",\"fil-content-file-placeholder\":\"src-styles-filelist__fil-content-file-placeholder-KfCMho\",\"filContentFilePlaceholder\":\"src-styles-filelist__fil-content-file-placeholder-KfCMho\",\"placeHolderShimmer\":\"src-styles-filelist__placeHolderShimmer-Lwg8Ym\",\"fil-content-sharestatus\":\"src-styles-filelist__fil-content-sharestatus-ubp7Lv\",\"filContentSharestatus\":\"src-styles-filelist__fil-content-sharestatus-ubp7Lv\",\"fil-content-sharestatus--disabled\":\"src-styles-filelist__fil-content-sharestatus--disabled-PVHJb7\",\"filContentSharestatusDisabled\":\"src-styles-filelist__fil-content-sharestatus--disabled-PVHJb7\",\"fil-content-file-action--disabled\":\"src-styles-filelist__fil-content-file-action--disabled-fxhBHH\",\"filContentFileActionDisabled\":\"src-styles-filelist__fil-content-file-action--disabled-fxhBHH\",\"fil-content-body\":\"src-styles-filelist__fil-content-body-PUmIfq\",\"filContentBody\":\"src-styles-filelist__fil-content-body-PUmIfq\",\"fil-content-table-selection\":\"src-styles-filelist__fil-content-table-selection-ZXNxNb\",\"filContentTableSelection\":\"src-styles-filelist__fil-content-table-selection-ZXNxNb\",\"fil-content-body--withFabActive\":\"src-styles-filelist__fil-content-body--withFabActive-mG7JmE\",\"filContentBodyWithFabActive\":\"src-styles-filelist__fil-content-body--withFabActive-mG7JmE\",\"fil-content-head\":\"src-styles-filelist__fil-content-head-R_tm8i\",\"filContentHead\":\"src-styles-filelist__fil-content-head-R_tm8i\"}";
-        // 1764578892214
+        // 1764670078735
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -331,7 +331,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-file-name-input\":\"src-styles-filenameinput__fil-file-name-input-G5Eytm\",\"filFileNameInput\":\"src-styles-filenameinput__fil-file-name-input-G5Eytm\",\"error\":\"src-styles-filenameinput__error-M9EoFM\"}";
-        // 1764578892195
+        // 1764670078740
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -363,7 +363,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"iconColorPopper\":\"src-styles-folder-customizer__iconColorPopper-REqhKl\",\"iconColorPaper\":\"src-styles-folder-customizer__iconColorPaper-ptd0Nl\",\"noneIconFrame\":\"src-styles-folder-customizer__noneIconFrame-WoMmzS\",\"foldercustomizer-dialog\":\"src-styles-folder-customizer__foldercustomizer-dialog-sSZ1GT\",\"foldercustomizerDialog\":\"src-styles-folder-customizer__foldercustomizer-dialog-sSZ1GT\",\"foldercustomizer-tabs-container\":\"src-styles-folder-customizer__foldercustomizer-tabs-container-a82LIQ\",\"foldercustomizerTabsContainer\":\"src-styles-folder-customizer__foldercustomizer-tabs-container-a82LIQ\",\"foldercustomizer-icons-container\":\"src-styles-folder-customizer__foldercustomizer-icons-container-VJG18Y\",\"foldercustomizerIconsContainer\":\"src-styles-folder-customizer__foldercustomizer-icons-container-VJG18Y\"}";
-        // 1764578892177
+        // 1764670078407
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -395,7 +395,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"icon-shared\":\"src-styles-folder-picker__icon-shared-U2Cwcs\",\"iconShared\":\"src-styles-folder-picker__icon-shared-U2Cwcs\"}";
-        // 1764578892212
+        // 1764670078740
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -427,7 +427,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-folder-body-grid\":\"src-styles-folder-view__fil-folder-body-grid-YI7eCf\",\"filFolderBodyGrid\":\"src-styles-folder-view__fil-folder-body-grid-YI7eCf\"}";
-        // 1764578892168
+        // 1764670078400
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -459,7 +459,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"center-layout\":\"src-styles-main__center-layout-GAP_Z5\",\"centerLayout\":\"src-styles-main__center-layout-GAP_Z5\"}";
-        // 1764578891580
+        // 1764670078604
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -491,7 +491,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-topbar\":\"src-styles-topbar__fil-topbar-ovGJX_\",\"filTopbar\":\"src-styles-topbar__fil-topbar-ovGJX_\",\"hidden-mobile\":\"src-styles-topbar__hidden-mobile-B0E6_B\",\"hiddenMobile\":\"src-styles-topbar__hidden-mobile-B0E6_B\",\"fil-tab-item\":\"src-styles-topbar__fil-tab-item-orwooZ\",\"filTabItem\":\"src-styles-topbar__fil-tab-item-orwooZ\",\"fil-tab-item--selected\":\"src-styles-topbar__fil-tab-item--selected-At4M_D\",\"filTabItemSelected\":\"src-styles-topbar__fil-tab-item--selected-At4M_D\",\"fil-tab-icon\":\"src-styles-topbar__fil-tab-icon-ak5Cv0\",\"filTabIcon\":\"src-styles-topbar__fil-tab-icon-ak5Cv0\"}";
-        // 1764578892208
+        // 1764670078671
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -22014,14 +22014,13 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* ESM import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./node_modules/react/jsx-dev-runtime.js");
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./node_modules/react/index.js");
-/* ESM import */var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./node_modules/react-router-dom/dist/index.js");
-/* ESM import */var cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/MidEllipsis/index.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Breakpoints/index.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/I18n/index.js");
+/* ESM import */var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./node_modules/react-router-dom/dist/index.js");
+/* ESM import */var cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/MidEllipsis/index.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Breakpoints/index.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/I18n/index.js");
 /* ESM import */var _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./src/styles/filelist.styl");
 /* ESM import */var _modules_filelist_cells_CertificationsIcons_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./src/modules/filelist/cells/CertificationsIcons.jsx");
 /* ESM import */var _modules_filelist_helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./src/modules/filelist/helpers.ts");
-/* ESM import */var _modules_routeUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./src/modules/routeUtils.js");
 /* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("./node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
 
 var _s = $RefreshSig$();
@@ -22033,12 +22032,11 @@ var _s = $RefreshSig$();
 
 
 
-
 const FileNamePath = (param)=>{
     let { attributes, withFilePath, formattedSize, formattedUpdatedAt, parentFolderPath } = param;
     _s();
-    const { isMobile } = (0,cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_6__.useBreakpoints)();
-    const { t } = (0,cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_7__.useI18n)();
+    const { isMobile } = (0,cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_5__.useBreakpoints)();
+    const { t } = (0,cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_6__.useI18n)();
     const { filename, extension } = (0,_modules_filelist_helpers__WEBPACK_IMPORTED_MODULE_4__.getFileNameAndExtension)(attributes, t);
     if (!withFilePath) {
         return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
@@ -22049,13 +22047,13 @@ const FileNamePath = (param)=>{
                     attributes: attributes
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-                    lineNumber: 29,
+                    lineNumber: 28,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-            lineNumber: 27,
+            lineNumber: 26,
             columnNumber: 7
         }, undefined);
     }
@@ -22064,50 +22062,49 @@ const FileNamePath = (param)=>{
             className: _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__["default"]["fil-file-description"],
             title: filename + extension,
             children: [
-                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_8__["default"], {
+                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_7__["default"], {
                     className: _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__["default"]["fil-file-description--path"],
                     text: parentFolderPath
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-                    lineNumber: 40,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_filelist_cells_CertificationsIcons_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
                     attributes: attributes
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-                    lineNumber: 44,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-            lineNumber: 36,
+            lineNumber: 35,
             columnNumber: 7
         }, undefined);
     }
-    const to = attributes.driveId ? (0,_modules_routeUtils__WEBPACK_IMPORTED_MODULE_5__.getSharedDrivePath)(attributes.driveId, attributes.dir_id) : (0,_modules_routeUtils__WEBPACK_IMPORTED_MODULE_5__.getFolderPath)(attributes.dir_id);
-    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, {
-        to: to,
+    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, {
+        to: `/folder/${attributes.dir_id}`,
         // Please do not modify the className as it is used in event handling, see FileOpener
         className: _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__["default"]["fil-file-path"],
-        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_7__["default"], {
             text: parentFolderPath
         }, void 0, false, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-            lineNumber: 59,
+            lineNumber: 54,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-        lineNumber: 54,
+        lineNumber: 49,
         columnNumber: 5
     }, undefined);
 };
 _s(FileNamePath, "URjKXg+c7aS1ifkywKcjl8mpzxE=", false, function() {
     return [
-        cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_6__.useBreakpoints,
-        cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_7__.useI18n
+        cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_5__.useBreakpoints,
+        cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_6__.useI18n
     ];
 });
 _c = FileNamePath;
@@ -24424,8 +24421,6 @@ const computeFileType = function(file) {
         return 'shortcut';
     } else if ((0,cozy_client_dist_models_file__WEBPACK_IMPORTED_MODULE_4__.isDirectory)(file)) {
         return 'directory';
-    } else if (file.driveId) {
-        return 'shared-drive-file';
     } else {
         return 'file';
     }
@@ -24493,14 +24488,6 @@ const computePath = (file, param)=>{
                 return `/folder/${file._id}`;
             }
             return `/shareddrive/${driveId}/${file._id}`;
-        case 'shared-drive-file':
-            if (!driveId || (0,_modules_nextcloud_helpers__WEBPACK_IMPORTED_MODULE_2__.isNextcloudFile)(file)) {
-                throw new Error('Missing driveId or invalid file type in shared drive file');
-            }
-            if (!file.dir_id) {
-                throw new Error('Missing dir_id in shared drive file');
-            }
-            return `/shareddrive/${driveId}/${file.dir_id}/file/${file._id}`;
         default:
             // On mobile, if we are in /favorites tab, we do not want it to appears in computed path
             // so we redirect to root route for files
@@ -37424,7 +37411,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("bb10449b33aa34ed")
+__webpack_require__.h = () => ("d04ab4d53cb79716")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {

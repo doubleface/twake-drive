@@ -11,7 +11,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"empty\":\"src-components-Error-empty__empty-H_rqId\"}";
-        // 1764578892171
+        // 1764670078604
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -43,7 +43,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"oops\":\"src-components-Error-oops__oops-tmW_k0\"}";
-        // 1764578892169
+        // 1764670078601
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -75,7 +75,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"HistoryRowRevisionLoader\":\"src-components-FileHistory-styles__HistoryRowRevisionLoader-s7WQmY\",\"historyRowRevisionLoader\":\"src-components-FileHistory-styles__HistoryRowRevisionLoader-s7WQmY\"}";
-        // 1764578891936
+        // 1764670078310
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -107,7 +107,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-path-backdrop\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-backdrop-TyeU_h\",\"filPathBackdrop\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-backdrop-TyeU_h\",\"fil-path-title\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-title-aCzlut\",\"filPathTitle\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-title-aCzlut\",\"fil-path-link\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-U6EV5L\",\"filPathLink\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-U6EV5L\",\"fil-path-separator\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-separator-WV9SPe\",\"filPathSeparator\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-separator-WV9SPe\",\"fil-path-down\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-down-LyIea7\",\"filPathDown\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-down-LyIea7\",\"fil-path-current-name\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-name-JLxV4q\",\"filPathCurrentName\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-name-JLxV4q\",\"fil-path-current\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-cPEoG2\",\"filPathCurrent\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-current-cPEoG2\",\"deployed\":\"src-modules-breadcrumb-styles-breadcrumb__deployed-kCktIa\",\"inlined\":\"src-modules-breadcrumb-styles-breadcrumb__inlined-xWDi_r\",\"fil-path-link-name\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-name-PHg6mX\",\"filPathLinkName\":\"src-modules-breadcrumb-styles-breadcrumb__fil-path-link-name-PHg6mX\",\"mobile\":\"src-modules-breadcrumb-styles-breadcrumb__mobile-jH0Xm0\"}";
-        // 1764578892207
+        // 1764670078740
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -139,7 +139,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"file-opener\":\"src-modules-filelist-fileopener__file-opener-OXxveU\",\"fileOpener\":\"src-modules-filelist-fileopener__file-opener-OXxveU\",\"file-opener__a\":\"src-modules-filelist-fileopener__file-opener__a-NazX3K\",\"fileOpenerA\":\"src-modules-filelist-fileopener__file-opener__a-NazX3K\"}";
-        // 1764578892215
+        // 1764670078736
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -171,7 +171,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"bar-search-autosuggest-suggestions-container\":\"src-modules-search-components-styles__bar-search-autosuggest-suggestions-container-Noousp\",\"barSearchAutosuggestSuggestionsContainer\":\"src-modules-search-components-styles__bar-search-autosuggest-suggestions-container-Noousp\",\"bar-search-autosuggest-suggestions-container--open\":\"src-modules-search-components-styles__bar-search-autosuggest-suggestions-container--open-Km4ind\",\"barSearchAutosuggestSuggestionsContainerOpen\":\"src-modules-search-components-styles__bar-search-autosuggest-suggestions-container--open-Km4ind\",\"bar-search-autosuggest-status-container\":\"src-modules-search-components-styles__bar-search-autosuggest-status-container-Ca3GwX\",\"barSearchAutosuggestStatusContainer\":\"src-modules-search-components-styles__bar-search-autosuggest-status-container-Ca3GwX\",\"--empty\":\"src-modules-search-components-styles__--empty-GKLksR\",\"empty\":\"src-modules-search-components-styles__--empty-GKLksR\",\"bar-search-autosuggest-suggestions-list\":\"src-modules-search-components-styles__bar-search-autosuggest-suggestions-list-MDyjGA\",\"barSearchAutosuggestSuggestionsList\":\"src-modules-search-components-styles__bar-search-autosuggest-suggestions-list-MDyjGA\",\"bar-search-container\":\"src-modules-search-components-styles__bar-search-container-mMYb4d\",\"barSearchContainer\":\"src-modules-search-components-styles__bar-search-container-mMYb4d\",\"mobile\":\"src-modules-search-components-styles__mobile-AylZFe\",\"bar-search-input-group\":\"src-modules-search-components-styles__bar-search-input-group-lBA2Bf\",\"barSearchInputGroup\":\"src-modules-search-components-styles__bar-search-input-group-lBA2Bf\",\"bar-search-input-group-append\":\"src-modules-search-components-styles__bar-search-input-group-append-qBA4x4\",\"barSearchInputGroupAppend\":\"src-modules-search-components-styles__bar-search-input-group-append-qBA4x4\",\"suggestion-item-parent-link\":\"src-modules-search-components-styles__suggestion-item-parent-link-a7i1JC\",\"suggestionItemParentLink\":\"src-modules-search-components-styles__suggestion-item-parent-link-a7i1JC\"}";
-        // 1764578891985
+        // 1764670078387
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -203,7 +203,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"pho-viewer-noviewer-cta\":\"src-modules-viewer-styles__pho-viewer-noviewer-cta-YqkcnE\",\"phoViewerNoviewerCta\":\"src-modules-viewer-styles__pho-viewer-noviewer-cta-YqkcnE\",\"pho-viewer-noviewer-cta-cross\":\"src-modules-viewer-styles__pho-viewer-noviewer-cta-cross-ZF5bcZ\",\"phoViewerNoviewerCtaCross\":\"src-modules-viewer-styles__pho-viewer-noviewer-cta-cross-ZF5bcZ\"}";
-        // 1764578892213
+        // 1764670078738
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -235,7 +235,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"separator\":\"src-modules-views-OnlyOffice-Toolbar-styles__separator-ffrmrr\",\"fileName\":\"src-modules-views-OnlyOffice-Toolbar-styles__fileName-Zx_7SQ\",\"filename-renameInput\":\"src-modules-views-OnlyOffice-Toolbar-styles__filename-renameInput-ce_3bJ\",\"filenameRenameInput\":\"src-modules-views-OnlyOffice-Toolbar-styles__filename-renameInput-ce_3bJ\"}";
-        // 1764578892216
+        // 1764670078741
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -267,7 +267,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-mobileactionmenu-file-name\":\"src-styles-actionmenu__fil-mobileactionmenu-file-name-FOFt9U\",\"filMobileactionmenuFileName\":\"src-styles-actionmenu__fil-mobileactionmenu-file-name-FOFt9U\",\"fil-mobileactionmenu-file-ext\":\"src-styles-actionmenu__fil-mobileactionmenu-file-ext-XTXQ2_\",\"filMobileactionmenuFileExt\":\"src-styles-actionmenu__fil-mobileactionmenu-file-ext-XTXQ2_\",\"fil-mobileactionmenu-category\":\"src-styles-actionmenu__fil-mobileactionmenu-category-_mj6k3\",\"filMobileactionmenuCategory\":\"src-styles-actionmenu__fil-mobileactionmenu-category-_mj6k3\"}";
-        // 1764578892214
+        // 1764670078737
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -299,7 +299,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-dropzone-active\":\"src-styles-dropzone__fil-dropzone-active-YW0vEC\",\"filDropzoneActive\":\"src-styles-dropzone__fil-dropzone-active-YW0vEC\",\"fil-dropzone-teaser\":\"src-styles-dropzone__fil-dropzone-teaser-jqF5rR\",\"filDropzoneTeaser\":\"src-styles-dropzone__fil-dropzone-teaser-jqF5rR\",\"fil-dropzone-teaser-claudy\":\"src-styles-dropzone__fil-dropzone-teaser-claudy-kM8PRQ\",\"filDropzoneTeaserClaudy\":\"src-styles-dropzone__fil-dropzone-teaser-claudy-kM8PRQ\",\"pulse\":\"src-styles-dropzone__pulse-DX6aoj\",\"fil-dropzone-teaser-content\":\"src-styles-dropzone__fil-dropzone-teaser-content-U9Ywcc\",\"filDropzoneTeaserContent\":\"src-styles-dropzone__fil-dropzone-teaser-content-U9Ywcc\",\"fil-dropzone-teaser-folder\":\"src-styles-dropzone__fil-dropzone-teaser-folder-tY6xHu\",\"filDropzoneTeaserFolder\":\"src-styles-dropzone__fil-dropzone-teaser-folder-tY6xHu\"}";
-        // 1764578892166
+        // 1764670078586
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -331,7 +331,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-content-row-selected\":\"src-styles-filelist__fil-content-row-selected-NCUdFl\",\"filContentRowSelected\":\"src-styles-filelist__fil-content-row-selected-NCUdFl\",\"fil-content-column-selected\":\"src-styles-filelist__fil-content-column-selected-fP4zEq\",\"filContentColumnSelected\":\"src-styles-filelist__fil-content-column-selected-fP4zEq\",\"fil-file-list-container\":\"src-styles-filelist__fil-file-list-container-U34Psk\",\"filFileListContainer\":\"src-styles-filelist__fil-file-list-container-U34Psk\",\"fil-content-cell\":\"src-styles-filelist__fil-content-cell-ZXKNDz\",\"filContentCell\":\"src-styles-filelist__fil-content-cell-ZXKNDz\",\"fil-content-row\":\"src-styles-filelist__fil-content-row-WbMkV0\",\"filContentRow\":\"src-styles-filelist__fil-content-row-WbMkV0\",\"fil-content-file-select\":\"src-styles-filelist__fil-content-file-select-R1SsnF\",\"filContentFileSelect\":\"src-styles-filelist__fil-content-file-select-R1SsnF\",\"fil-content-row--center\":\"src-styles-filelist__fil-content-row--center-wh4_tE\",\"filContentRowCenter\":\"src-styles-filelist__fil-content-row--center-wh4_tE\",\"fil-content-row-actioned\":\"src-styles-filelist__fil-content-row-actioned-svyW32\",\"filContentRowActioned\":\"src-styles-filelist__fil-content-row-actioned-svyW32\",\"fil-content-row-disabled\":\"src-styles-filelist__fil-content-row-disabled-RsrFh9\",\"filContentRowDisabled\":\"src-styles-filelist__fil-content-row-disabled-RsrFh9\",\"fil-content-row-bigger\":\"src-styles-filelist__fil-content-row-bigger-vYPd5W\",\"filContentRowBigger\":\"src-styles-filelist__fil-content-row-bigger-vYPd5W\",\"fil-content-head-grid-view\":\"src-styles-filelist__fil-content-head-grid-view-QVt0Zo\",\"filContentHeadGridView\":\"src-styles-filelist__fil-content-head-grid-view-QVt0Zo\",\"fil-content-column\":\"src-styles-filelist__fil-content-column-zvhV6P\",\"filContentColumn\":\"src-styles-filelist__fil-content-column-zvhV6P\",\"fil-content-file-action\":\"src-styles-filelist__fil-content-file-action-Vjb5wW\",\"filContentFileAction\":\"src-styles-filelist__fil-content-file-action-Vjb5wW\",\"fil-content-column-virtualized\":\"src-styles-filelist__fil-content-column-virtualized-snn5dT\",\"filContentColumnVirtualized\":\"src-styles-filelist__fil-content-column-virtualized-snn5dT\",\"fil-content-column--center\":\"src-styles-filelist__fil-content-column--center-IdWreC\",\"filContentColumnCenter\":\"src-styles-filelist__fil-content-column--center-IdWreC\",\"fil-content-grid-item\":\"src-styles-filelist__fil-content-grid-item-Dl6arl\",\"filContentGridItem\":\"src-styles-filelist__fil-content-grid-item-Dl6arl\",\"fil-content-column-disabled\":\"src-styles-filelist__fil-content-column-disabled-GTZSVk\",\"filContentColumnDisabled\":\"src-styles-filelist__fil-content-column-disabled-GTZSVk\",\"fil-content-column-actioned\":\"src-styles-filelist__fil-content-column-actioned-fr7pq7\",\"filContentColumnActioned\":\"src-styles-filelist__fil-content-column-actioned-fr7pq7\",\"fil-content-ext\":\"src-styles-filelist__fil-content-ext-BGBCPR\",\"filContentExt\":\"src-styles-filelist__fil-content-ext-BGBCPR\",\"fil-content-header\":\"src-styles-filelist__fil-content-header-dS5Zie\",\"filContentHeader\":\"src-styles-filelist__fil-content-header-dS5Zie\",\"fil-content-header--capitalize\":\"src-styles-filelist__fil-content-header--capitalize-AJkmls\",\"filContentHeaderCapitalize\":\"src-styles-filelist__fil-content-header--capitalize-AJkmls\",\"fil-content-mobile-head\":\"src-styles-filelist__fil-content-mobile-head-fz7lsM\",\"filContentMobileHead\":\"src-styles-filelist__fil-content-mobile-head-fz7lsM\",\"fil-content-mobile-header\":\"src-styles-filelist__fil-content-mobile-header-S8lq5j\",\"filContentMobileHeader\":\"src-styles-filelist__fil-content-mobile-header-S8lq5j\",\"fil-content-header-sortableasc\":\"src-styles-filelist__fil-content-header-sortableasc-rwsr0v\",\"filContentHeaderSortableasc\":\"src-styles-filelist__fil-content-header-sortableasc-rwsr0v\",\"fil-content-header-sortabledesc\":\"src-styles-filelist__fil-content-header-sortabledesc-lYA0Lo\",\"filContentHeaderSortabledesc\":\"src-styles-filelist__fil-content-header-sortabledesc-lYA0Lo\",\"fil-content-header-sortasc\":\"src-styles-filelist__fil-content-header-sortasc-O3WruI\",\"filContentHeaderSortasc\":\"src-styles-filelist__fil-content-header-sortasc-O3WruI\",\"fil-content-header-sortdesc\":\"src-styles-filelist__fil-content-header-sortdesc-rOhhgT\",\"filContentHeaderSortdesc\":\"src-styles-filelist__fil-content-header-sortdesc-rOhhgT\",\"fil-content-file\":\"src-styles-filelist__fil-content-file-PjsoJV\",\"filContentFile\":\"src-styles-filelist__fil-content-file-PjsoJV\",\"fil-content-file-openable\":\"src-styles-filelist__fil-content-file-openable-w4fSbg\",\"filContentFileOpenable\":\"src-styles-filelist__fil-content-file-openable-w4fSbg\",\"fil-content-grid-view\":\"src-styles-filelist__fil-content-grid-view-IcpmNR\",\"filContentGridView\":\"src-styles-filelist__fil-content-grid-view-IcpmNR\",\"fil-content-status\":\"src-styles-filelist__fil-content-status-mlUIFz\",\"filContentStatus\":\"src-styles-filelist__fil-content-status-mlUIFz\",\"fil-file-filename-and-ext\":\"src-styles-filelist__fil-file-filename-and-ext-OiCHoH\",\"filFileFilenameAndExt\":\"src-styles-filelist__fil-file-filename-and-ext-OiCHoH\",\"fil-file-path\":\"src-styles-filelist__fil-file-path-QpjKUQ\",\"filFilePath\":\"src-styles-filelist__fil-file-path-QpjKUQ\",\"fil-file-description\":\"src-styles-filelist__fil-file-description-b0n8tl\",\"filFileDescription\":\"src-styles-filelist__fil-file-description-b0n8tl\",\"fil-file-thumbnail\":\"src-styles-filelist__fil-file-thumbnail-rpHzt4\",\"filFileThumbnail\":\"src-styles-filelist__fil-file-thumbnail-rpHzt4\",\"fil-file-thumbnail--spinner\":\"src-styles-filelist__fil-file-thumbnail--spinner-O6sI3a\",\"filFileThumbnailSpinner\":\"src-styles-filelist__fil-file-thumbnail--spinner-O6sI3a\",\"fil-file-thumbnail-image\":\"src-styles-filelist__fil-file-thumbnail-image-aSwcGt\",\"filFileThumbnailImage\":\"src-styles-filelist__fil-file-thumbnail-image-aSwcGt\",\"fil-content-shared\":\"src-styles-filelist__fil-content-shared-zvv5t8\",\"filContentShared\":\"src-styles-filelist__fil-content-shared-zvv5t8\",\"fil-content-shared-vz\":\"src-styles-filelist__fil-content-shared-vz-KeE43d\",\"filContentSharedVz\":\"src-styles-filelist__fil-content-shared-vz-KeE43d\",\"fil-content-date\":\"src-styles-filelist__fil-content-date-HtLOvl\",\"filContentDate\":\"src-styles-filelist__fil-content-date-HtLOvl\",\"fil-content-size\":\"src-styles-filelist__fil-content-size-g8UdsX\",\"filContentSize\":\"src-styles-filelist__fil-content-size-g8UdsX\",\"fil-content-narrow\":\"src-styles-filelist__fil-content-narrow-_7PCcR\",\"filContentNarrow\":\"src-styles-filelist__fil-content-narrow-_7PCcR\",\"fil-content-header-status\":\"src-styles-filelist__fil-content-header-status-Zu9sRa\",\"filContentHeaderStatus\":\"src-styles-filelist__fil-content-header-status-Zu9sRa\",\"fil-content-offline\":\"src-styles-filelist__fil-content-offline-BQezVT\",\"filContentOffline\":\"src-styles-filelist__fil-content-offline-BQezVT\",\"fil-content-header-sharing-shortcut\":\"src-styles-filelist__fil-content-header-sharing-shortcut-uJBLGr\",\"filContentHeaderSharingShortcut\":\"src-styles-filelist__fil-content-header-sharing-shortcut-uJBLGr\",\"fil-content-sharing-shortcut\":\"src-styles-filelist__fil-content-sharing-shortcut-n0_0Cc\",\"filContentSharingShortcut\":\"src-styles-filelist__fil-content-sharing-shortcut-n0_0Cc\",\"fil-content-header-action\":\"src-styles-filelist__fil-content-header-action-DaVBEb\",\"filContentHeaderAction\":\"src-styles-filelist__fil-content-header-action-DaVBEb\",\"fil-content-body--selectable\":\"src-styles-filelist__fil-content-body--selectable-ysGYEP\",\"filContentBodySelectable\":\"src-styles-filelist__fil-content-body--selectable-ysGYEP\",\"fil-file\":\"src-styles-filelist__fil-file-uCZ8mV\",\"filFile\":\"src-styles-filelist__fil-file-uCZ8mV\",\"fil-file-filename\":\"src-styles-filelist__fil-file-filename-hp04pN\",\"filFileFilename\":\"src-styles-filelist__fil-file-filename-hp04pN\",\"fil-file-filename-wrapper\":\"src-styles-filelist__fil-file-filename-wrapper-Zw5My2\",\"filFileFilenameWrapper\":\"src-styles-filelist__fil-file-filename-wrapper-Zw5My2\",\"fil-file-filename-spinner\":\"src-styles-filelist__fil-file-filename-spinner-SOjBXM\",\"filFileFilenameSpinner\":\"src-styles-filelist__fil-file-filename-spinner-SOjBXM\",\"fil-file-description--path\":\"src-styles-filelist__fil-file-description--path-CEAtUK\",\"filFileDescriptionPath\":\"src-styles-filelist__fil-file-description--path-CEAtUK\",\"fil-file-certifications\":\"src-styles-filelist__fil-file-certifications-dSxenJ\",\"filFileCertifications\":\"src-styles-filelist__fil-file-certifications-dSxenJ\",\"fil-file-certifications--separator\":\"src-styles-filelist__fil-file-certifications--separator-J9D6MP\",\"filFileCertificationsSeparator\":\"src-styles-filelist__fil-file-certifications--separator-J9D6MP\",\"fil-file-certifications--icon\":\"src-styles-filelist__fil-file-certifications--icon-jdevT6\",\"filFileCertificationsIcon\":\"src-styles-filelist__fil-file-certifications--icon-jdevT6\",\"fil-file-infos\":\"src-styles-filelist__fil-file-infos-p_2xRT\",\"filFileInfos\":\"src-styles-filelist__fil-file-infos-p_2xRT\",\"fil-file-shared\":\"src-styles-filelist__fil-file-shared-fz8CXG\",\"filFileShared\":\"src-styles-filelist__fil-file-shared-fz8CXG\",\"fil-file-shared-icon\":\"src-styles-filelist__fil-file-shared-icon-zuB17W\",\"filFileSharedIcon\":\"src-styles-filelist__fil-file-shared-icon-zuB17W\",\"fil-content-file-placeholder\":\"src-styles-filelist__fil-content-file-placeholder-KfCMho\",\"filContentFilePlaceholder\":\"src-styles-filelist__fil-content-file-placeholder-KfCMho\",\"placeHolderShimmer\":\"src-styles-filelist__placeHolderShimmer-Lwg8Ym\",\"fil-content-sharestatus\":\"src-styles-filelist__fil-content-sharestatus-ubp7Lv\",\"filContentSharestatus\":\"src-styles-filelist__fil-content-sharestatus-ubp7Lv\",\"fil-content-sharestatus--disabled\":\"src-styles-filelist__fil-content-sharestatus--disabled-PVHJb7\",\"filContentSharestatusDisabled\":\"src-styles-filelist__fil-content-sharestatus--disabled-PVHJb7\",\"fil-content-file-action--disabled\":\"src-styles-filelist__fil-content-file-action--disabled-fxhBHH\",\"filContentFileActionDisabled\":\"src-styles-filelist__fil-content-file-action--disabled-fxhBHH\",\"fil-content-body\":\"src-styles-filelist__fil-content-body-PUmIfq\",\"filContentBody\":\"src-styles-filelist__fil-content-body-PUmIfq\",\"fil-content-table-selection\":\"src-styles-filelist__fil-content-table-selection-ZXNxNb\",\"filContentTableSelection\":\"src-styles-filelist__fil-content-table-selection-ZXNxNb\",\"fil-content-body--withFabActive\":\"src-styles-filelist__fil-content-body--withFabActive-mG7JmE\",\"filContentBodyWithFabActive\":\"src-styles-filelist__fil-content-body--withFabActive-mG7JmE\",\"fil-content-head\":\"src-styles-filelist__fil-content-head-R_tm8i\",\"filContentHead\":\"src-styles-filelist__fil-content-head-R_tm8i\"}";
-        // 1764578892212
+        // 1764670078742
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -363,7 +363,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-file-name-input\":\"src-styles-filenameinput__fil-file-name-input-G5Eytm\",\"filFileNameInput\":\"src-styles-filenameinput__fil-file-name-input-G5Eytm\",\"error\":\"src-styles-filenameinput__error-M9EoFM\"}";
-        // 1764578892216
+        // 1764670078741
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -395,7 +395,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"iconColorPopper\":\"src-styles-folder-customizer__iconColorPopper-REqhKl\",\"iconColorPaper\":\"src-styles-folder-customizer__iconColorPaper-ptd0Nl\",\"noneIconFrame\":\"src-styles-folder-customizer__noneIconFrame-WoMmzS\",\"foldercustomizer-dialog\":\"src-styles-folder-customizer__foldercustomizer-dialog-sSZ1GT\",\"foldercustomizerDialog\":\"src-styles-folder-customizer__foldercustomizer-dialog-sSZ1GT\",\"foldercustomizer-tabs-container\":\"src-styles-folder-customizer__foldercustomizer-tabs-container-a82LIQ\",\"foldercustomizerTabsContainer\":\"src-styles-folder-customizer__foldercustomizer-tabs-container-a82LIQ\",\"foldercustomizer-icons-container\":\"src-styles-folder-customizer__foldercustomizer-icons-container-VJG18Y\",\"foldercustomizerIconsContainer\":\"src-styles-folder-customizer__foldercustomizer-icons-container-VJG18Y\"}";
-        // 1764578892178
+        // 1764670078644
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -427,7 +427,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"icon-shared\":\"src-styles-folder-picker__icon-shared-U2Cwcs\",\"iconShared\":\"src-styles-folder-picker__icon-shared-U2Cwcs\"}";
-        // 1764578892217
+        // 1764670078740
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -459,7 +459,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-folder-body-grid\":\"src-styles-folder-view__fil-folder-body-grid-YI7eCf\",\"filFolderBodyGrid\":\"src-styles-folder-view__fil-folder-body-grid-YI7eCf\"}";
-        // 1764578891821
+        // 1764670078414
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -491,7 +491,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"u-visuallyhidden\":\"src-styles-toolbar__u-visuallyhidden-SwgiRT\",\"uVisuallyhidden\":\"src-styles-toolbar__u-visuallyhidden-SwgiRT\",\"u-hide\":\"src-styles-toolbar__u-hide-eI3u49\",\"uHide\":\"src-styles-toolbar__u-hide-eI3u49\",\"u-hide--mob\":\"src-styles-toolbar__u-hide--mob-ibENPt\",\"uHideMob\":\"src-styles-toolbar__u-hide--mob-ibENPt\",\"u-hide--tablet\":\"src-styles-toolbar__u-hide--tablet-Ip9vFz\",\"uHideTablet\":\"src-styles-toolbar__u-hide--tablet-Ip9vFz\",\"u-hide--desk\":\"src-styles-toolbar__u-hide--desk-kmMsea\",\"uHideDesk\":\"src-styles-toolbar__u-hide--desk-kmMsea\",\"u-dn\":\"src-styles-toolbar__u-dn-bjvrOO\",\"uDn\":\"src-styles-toolbar__u-dn-bjvrOO\",\"u-di\":\"src-styles-toolbar__u-di-i_AgnU\",\"uDi\":\"src-styles-toolbar__u-di-i_AgnU\",\"u-db\":\"src-styles-toolbar__u-db-aIqEuS\",\"uDb\":\"src-styles-toolbar__u-db-aIqEuS\",\"u-dc\":\"src-styles-toolbar__u-dc-aEN95n\",\"uDc\":\"src-styles-toolbar__u-dc-aEN95n\",\"u-dib\":\"src-styles-toolbar__u-dib-oSIkk2\",\"uDib\":\"src-styles-toolbar__u-dib-oSIkk2\",\"u-dit\":\"src-styles-toolbar__u-dit-WutHcC\",\"uDit\":\"src-styles-toolbar__u-dit-WutHcC\",\"u-dt\":\"src-styles-toolbar__u-dt-CyF13q\",\"uDt\":\"src-styles-toolbar__u-dt-CyF13q\",\"u-dtc\":\"src-styles-toolbar__u-dtc-zYCPsl\",\"uDtc\":\"src-styles-toolbar__u-dtc-zYCPsl\",\"u-dt-row\":\"src-styles-toolbar__u-dt-row-pglZow\",\"uDtRow\":\"src-styles-toolbar__u-dt-row-pglZow\",\"u-dt-row-group\":\"src-styles-toolbar__u-dt-row-group-ww8gQh\",\"uDtRowGroup\":\"src-styles-toolbar__u-dt-row-group-ww8gQh\",\"u-dt-column\":\"src-styles-toolbar__u-dt-column-VtQkMn\",\"uDtColumn\":\"src-styles-toolbar__u-dt-column-VtQkMn\",\"u-dt-column-group\":\"src-styles-toolbar__u-dt-column-group-Q9XTeE\",\"uDtColumnGroup\":\"src-styles-toolbar__u-dt-column-group-Q9XTeE\",\"u-dn-t\":\"src-styles-toolbar__u-dn-t-CXIJRk\",\"uDnT\":\"src-styles-toolbar__u-dn-t-CXIJRk\",\"u-di-t\":\"src-styles-toolbar__u-di-t-fy3IPH\",\"uDiT\":\"src-styles-toolbar__u-di-t-fy3IPH\",\"u-db-t\":\"src-styles-toolbar__u-db-t-He907l\",\"uDbT\":\"src-styles-toolbar__u-db-t-He907l\",\"u-dc-t\":\"src-styles-toolbar__u-dc-t-Ns5cnr\",\"uDcT\":\"src-styles-toolbar__u-dc-t-Ns5cnr\",\"u-dib-t\":\"src-styles-toolbar__u-dib-t-HsPvRz\",\"uDibT\":\"src-styles-toolbar__u-dib-t-HsPvRz\",\"u-dit-t\":\"src-styles-toolbar__u-dit-t-qAO7W8\",\"uDitT\":\"src-styles-toolbar__u-dit-t-qAO7W8\",\"u-dt-t\":\"src-styles-toolbar__u-dt-t-gU6XN2\",\"uDtT\":\"src-styles-toolbar__u-dt-t-gU6XN2\",\"u-dtc-t\":\"src-styles-toolbar__u-dtc-t-kMy7td\",\"uDtcT\":\"src-styles-toolbar__u-dtc-t-kMy7td\",\"u-dt-row-t\":\"src-styles-toolbar__u-dt-row-t-wFsqCQ\",\"uDtRowT\":\"src-styles-toolbar__u-dt-row-t-wFsqCQ\",\"u-dt-row-group-t\":\"src-styles-toolbar__u-dt-row-group-t-lusvSB\",\"uDtRowGroupT\":\"src-styles-toolbar__u-dt-row-group-t-lusvSB\",\"u-dt-column-t\":\"src-styles-toolbar__u-dt-column-t-TL45zJ\",\"uDtColumnT\":\"src-styles-toolbar__u-dt-column-t-TL45zJ\",\"u-dt-column-group-t\":\"src-styles-toolbar__u-dt-column-group-t-etszUo\",\"uDtColumnGroupT\":\"src-styles-toolbar__u-dt-column-group-t-etszUo\",\"u-dn-s\":\"src-styles-toolbar__u-dn-s-r4bw63\",\"uDnS\":\"src-styles-toolbar__u-dn-s-r4bw63\",\"u-di-s\":\"src-styles-toolbar__u-di-s-vKoUyG\",\"uDiS\":\"src-styles-toolbar__u-di-s-vKoUyG\",\"u-db-s\":\"src-styles-toolbar__u-db-s-PX3XPS\",\"uDbS\":\"src-styles-toolbar__u-db-s-PX3XPS\",\"u-dc-s\":\"src-styles-toolbar__u-dc-s-EMSha8\",\"uDcS\":\"src-styles-toolbar__u-dc-s-EMSha8\",\"u-dib-s\":\"src-styles-toolbar__u-dib-s-LGZShH\",\"uDibS\":\"src-styles-toolbar__u-dib-s-LGZShH\",\"u-dit-s\":\"src-styles-toolbar__u-dit-s-BIluPv\",\"uDitS\":\"src-styles-toolbar__u-dit-s-BIluPv\",\"u-dt-s\":\"src-styles-toolbar__u-dt-s-nRwqi5\",\"uDtS\":\"src-styles-toolbar__u-dt-s-nRwqi5\",\"u-dtc-s\":\"src-styles-toolbar__u-dtc-s-P0hvzD\",\"uDtcS\":\"src-styles-toolbar__u-dtc-s-P0hvzD\",\"u-dt-row-s\":\"src-styles-toolbar__u-dt-row-s-net1kW\",\"uDtRowS\":\"src-styles-toolbar__u-dt-row-s-net1kW\",\"u-dt-row-group-s\":\"src-styles-toolbar__u-dt-row-group-s-ZGRXtW\",\"uDtRowGroupS\":\"src-styles-toolbar__u-dt-row-group-s-ZGRXtW\",\"u-dt-column-s\":\"src-styles-toolbar__u-dt-column-s-rdCb0t\",\"uDtColumnS\":\"src-styles-toolbar__u-dt-column-s-rdCb0t\",\"u-dt-column-group-s\":\"src-styles-toolbar__u-dt-column-group-s-N3qHSB\",\"uDtColumnGroupS\":\"src-styles-toolbar__u-dt-column-group-s-N3qHSB\",\"u-dn-m\":\"src-styles-toolbar__u-dn-m-FkfP0R\",\"uDnM\":\"src-styles-toolbar__u-dn-m-FkfP0R\",\"u-di-m\":\"src-styles-toolbar__u-di-m-_8_0oY\",\"uDiM\":\"src-styles-toolbar__u-di-m-_8_0oY\",\"u-db-m\":\"src-styles-toolbar__u-db-m-Y9qsv3\",\"uDbM\":\"src-styles-toolbar__u-db-m-Y9qsv3\",\"u-dc-m\":\"src-styles-toolbar__u-dc-m-E6YKX3\",\"uDcM\":\"src-styles-toolbar__u-dc-m-E6YKX3\",\"u-dib-m\":\"src-styles-toolbar__u-dib-m-ytcjVJ\",\"uDibM\":\"src-styles-toolbar__u-dib-m-ytcjVJ\",\"u-dit-m\":\"src-styles-toolbar__u-dit-m-rH4jM2\",\"uDitM\":\"src-styles-toolbar__u-dit-m-rH4jM2\",\"u-dt-m\":\"src-styles-toolbar__u-dt-m-EvACax\",\"uDtM\":\"src-styles-toolbar__u-dt-m-EvACax\",\"u-dtc-m\":\"src-styles-toolbar__u-dtc-m-Hx5fvI\",\"uDtcM\":\"src-styles-toolbar__u-dtc-m-Hx5fvI\",\"u-dt-row-m\":\"src-styles-toolbar__u-dt-row-m-CRbtRL\",\"uDtRowM\":\"src-styles-toolbar__u-dt-row-m-CRbtRL\",\"u-dt-row-group-m\":\"src-styles-toolbar__u-dt-row-group-m-K3YLcL\",\"uDtRowGroupM\":\"src-styles-toolbar__u-dt-row-group-m-K3YLcL\",\"u-dt-column-m\":\"src-styles-toolbar__u-dt-column-m-pOF3BR\",\"uDtColumnM\":\"src-styles-toolbar__u-dt-column-m-pOF3BR\",\"u-dt-column-group-m\":\"src-styles-toolbar__u-dt-column-group-m-q4O1v9\",\"uDtColumnGroupM\":\"src-styles-toolbar__u-dt-column-group-m-q4O1v9\",\"fil-toolbar-files\":\"src-styles-toolbar__fil-toolbar-files-oPNRQA\",\"filToolbarFiles\":\"src-styles-toolbar__fil-toolbar-files-oPNRQA\",\"fil-toolbar-trash\":\"src-styles-toolbar__fil-toolbar-trash-GX3QVM\",\"filToolbarTrash\":\"src-styles-toolbar__fil-toolbar-trash-GX3QVM\",\"spin\":\"src-styles-toolbar__spin-PhUgeA\",\"shake\":\"src-styles-toolbar__shake-hHQyZ5\"}";
-        // 1764578892179
+        // 1764670078643
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -523,7 +523,7 @@ __webpack_require__.d(__webpack_exports__, {
     if(true) {
       (function() {
         var localsJsonString = "{\"fil-topbar\":\"src-styles-topbar__fil-topbar-ovGJX_\",\"filTopbar\":\"src-styles-topbar__fil-topbar-ovGJX_\",\"hidden-mobile\":\"src-styles-topbar__hidden-mobile-B0E6_B\",\"hiddenMobile\":\"src-styles-topbar__hidden-mobile-B0E6_B\",\"fil-tab-item\":\"src-styles-topbar__fil-tab-item-orwooZ\",\"filTabItem\":\"src-styles-topbar__fil-tab-item-orwooZ\",\"fil-tab-item--selected\":\"src-styles-topbar__fil-tab-item--selected-At4M_D\",\"filTabItemSelected\":\"src-styles-topbar__fil-tab-item--selected-At4M_D\",\"fil-tab-icon\":\"src-styles-topbar__fil-tab-icon-ak5Cv0\",\"filTabIcon\":\"src-styles-topbar__fil-tab-icon-ak5Cv0\"}";
-        // 1764578892175
+        // 1764670078737
         var cssReload = (__webpack_require__("./node_modules/@rspack/core/dist/cssExtractHmr.js")/* .cssReload */.cssReload)(module.id, {});
         // only invalidate when locals change
         if (
@@ -8411,97 +8411,6 @@ _s(useParentFolder, "Gnhe3T7QCaKiJEhD4ADYPWylWRg=", false, function() {
     ];
 });
 /* ESM default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useParentFolder);
-
-function $RefreshSig$() {
-  return $ReactRefreshRuntime$.createSignatureFunctionForTransform();
-}
-function $RefreshReg$(type, id) {
-  $ReactRefreshRuntime$.register(type, module.id + "_" + id);
-}
-Promise.resolve().then(function() {
-  $ReactRefreshRuntime$.refresh(module.id, module.hot);
-});
-
-
-}),
-"./src/hooks/useRecentFiles.jsx": (function (module, __webpack_exports__, __webpack_require__) {
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-});
-/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./node_modules/react/index.js");
-/* ESM import */var cozy_client__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./node_modules/cozy-client/dist/index.js");
-/* ESM import */var cozy_client__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(cozy_client__WEBPACK_IMPORTED_MODULE_4__);
-/* ESM import */var cozy_dataproxy_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./node_modules/cozy-dataproxy-lib/dist/index.js");
-/* ESM import */var _lib_logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./src/lib/logger.js");
-/* ESM import */var _queries__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./src/queries/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("./node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
-var _s = $RefreshSig$();
-
-
-
-
-
-const useDataProxyRecents = ()=>{
-    _s();
-    const [data, setData] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
-    const [fetchStatus, setFetchStatus] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('loading');
-    const [error, setError] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
-    const dataProxy = (0,cozy_dataproxy_lib__WEBPACK_IMPORTED_MODULE_1__.useDataProxy)();
-    const client = (0,cozy_client__WEBPACK_IMPORTED_MODULE_4__.useClient)();
-    const recentQuery = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>(0,_queries__WEBPACK_IMPORTED_MODULE_3__.buildRecentQuery)(), []);
-    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{
-        const fetchRecents = async ()=>{
-            setFetchStatus('loading');
-            setError(null);
-            if (dataProxy.dataProxyServicesAvailable) {
-                try {
-                    const data = await dataProxy.recents();
-                    setData(data || []);
-                    setFetchStatus('loaded');
-                    return;
-                } catch (err) {
-                    _lib_logger__WEBPACK_IMPORTED_MODULE_2__["default"].warn('Error fetching recents from dataproxy', err);
-                }
-            }
-            if (client) {
-                try {
-                    const result = await client.fetchQueryAndGetFromState({
-                        definition: recentQuery.definition(),
-                        options: recentQuery.options
-                    });
-                    setData((result === null || result === void 0 ? void 0 : result.data) || []);
-                    setFetchStatus('loaded');
-                } catch (err) {
-                    _lib_logger__WEBPACK_IMPORTED_MODULE_2__["default"].warn('Error fetching recents from fallback query', err);
-                    setError(err);
-                    setFetchStatus('error');
-                }
-            } else {
-                setError(new Error('Client not available'));
-                setFetchStatus('error');
-            }
-        };
-        fetchRecents();
-    }, [
-        dataProxy,
-        client,
-        recentQuery
-    ]);
-    return {
-        data,
-        fetchStatus,
-        error
-    };
-};
-_s(useDataProxyRecents, "U2omV3vAB8AVj3RMgGDx3RXlLOI=", false, function() {
-    return [
-        cozy_dataproxy_lib__WEBPACK_IMPORTED_MODULE_1__.useDataProxy,
-        cozy_client__WEBPACK_IMPORTED_MODULE_4__.useClient
-    ];
-});
-/* ESM default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useDataProxyRecents);
 
 function $RefreshSig$() {
   return $ReactRefreshRuntime$.createSignatureFunctionForTransform();
@@ -23548,14 +23457,13 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* ESM import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./node_modules/react/jsx-dev-runtime.js");
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./node_modules/react/index.js");
-/* ESM import */var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./node_modules/react-router-dom/dist/index.js");
-/* ESM import */var cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/MidEllipsis/index.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Breakpoints/index.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/I18n/index.js");
+/* ESM import */var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./node_modules/react-router-dom/dist/index.js");
+/* ESM import */var cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/MidEllipsis/index.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Breakpoints/index.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/I18n/index.js");
 /* ESM import */var _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./src/styles/filelist.styl");
 /* ESM import */var _modules_filelist_cells_CertificationsIcons_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./src/modules/filelist/cells/CertificationsIcons.jsx");
 /* ESM import */var _modules_filelist_helpers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./src/modules/filelist/helpers.ts");
-/* ESM import */var _modules_routeUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./src/modules/routeUtils.js");
 /* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("./node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
 
 var _s = $RefreshSig$();
@@ -23567,12 +23475,11 @@ var _s = $RefreshSig$();
 
 
 
-
 const FileNamePath = (param)=>{
     let { attributes, withFilePath, formattedSize, formattedUpdatedAt, parentFolderPath } = param;
     _s();
-    const { isMobile } = (0,cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_6__.useBreakpoints)();
-    const { t } = (0,cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_7__.useI18n)();
+    const { isMobile } = (0,cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_5__.useBreakpoints)();
+    const { t } = (0,cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_6__.useI18n)();
     const { filename, extension } = (0,_modules_filelist_helpers__WEBPACK_IMPORTED_MODULE_4__.getFileNameAndExtension)(attributes, t);
     if (!withFilePath) {
         return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
@@ -23583,13 +23490,13 @@ const FileNamePath = (param)=>{
                     attributes: attributes
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-                    lineNumber: 29,
+                    lineNumber: 28,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-            lineNumber: 27,
+            lineNumber: 26,
             columnNumber: 7
         }, undefined);
     }
@@ -23598,50 +23505,49 @@ const FileNamePath = (param)=>{
             className: _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__["default"]["fil-file-description"],
             title: filename + extension,
             children: [
-                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_8__["default"], {
+                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_7__["default"], {
                     className: _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__["default"]["fil-file-description--path"],
                     text: parentFolderPath
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-                    lineNumber: 40,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_filelist_cells_CertificationsIcons_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
                     attributes: attributes
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-                    lineNumber: 44,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-            lineNumber: 36,
+            lineNumber: 35,
             columnNumber: 7
         }, undefined);
     }
-    const to = attributes.driveId ? (0,_modules_routeUtils__WEBPACK_IMPORTED_MODULE_5__.getSharedDrivePath)(attributes.driveId, attributes.dir_id) : (0,_modules_routeUtils__WEBPACK_IMPORTED_MODULE_5__.getFolderPath)(attributes.dir_id);
-    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.Link, {
-        to: to,
+    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Link, {
+        to: `/folder/${attributes.dir_id}`,
         // Please do not modify the className as it is used in event handling, see FileOpener
         className: _styles_filelist_styl__WEBPACK_IMPORTED_MODULE_2__["default"]["fil-file-path"],
-        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_MidEllipsis__WEBPACK_IMPORTED_MODULE_7__["default"], {
             text: parentFolderPath
         }, void 0, false, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-            lineNumber: 59,
+            lineNumber: 54,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/filelist/virtualized/cells/FileNamePath.jsx",
-        lineNumber: 54,
+        lineNumber: 49,
         columnNumber: 5
     }, undefined);
 };
 _s(FileNamePath, "URjKXg+c7aS1ifkywKcjl8mpzxE=", false, function() {
     return [
-        cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_6__.useBreakpoints,
-        cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_7__.useI18n
+        cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_5__.useBreakpoints,
+        cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_6__.useI18n
     ];
 });
 _c = FileNamePath;
@@ -29203,8 +29109,6 @@ const computeFileType = function(file) {
         return 'shortcut';
     } else if ((0,cozy_client_dist_models_file__WEBPACK_IMPORTED_MODULE_4__.isDirectory)(file)) {
         return 'directory';
-    } else if (file.driveId) {
-        return 'shared-drive-file';
     } else {
         return 'file';
     }
@@ -29272,14 +29176,6 @@ const computePath = (file, param)=>{
                 return `/folder/${file._id}`;
             }
             return `/shareddrive/${driveId}/${file._id}`;
-        case 'shared-drive-file':
-            if (!driveId || (0,_modules_nextcloud_helpers__WEBPACK_IMPORTED_MODULE_2__.isNextcloudFile)(file)) {
-                throw new Error('Missing driveId or invalid file type in shared drive file');
-            }
-            if (!file.dir_id) {
-                throw new Error('Missing dir_id in shared drive file');
-            }
-            return `/shareddrive/${driveId}/${file.dir_id}/file/${file._id}`;
         default:
             // On mobile, if we are in /favorites tab, we do not want it to appears in computed path
             // so we redirect to root route for files
@@ -45898,18 +45794,18 @@ __webpack_require__.d(__webpack_exports__, {
 /* ESM import */var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./node_modules/react/jsx-dev-runtime.js");
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./node_modules/react/index.js");
 /* ESM import */var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./node_modules/react-redux/es/index.js");
-/* ESM import */var react_router_dom__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__("./node_modules/react-router/dist/index.js");
-/* ESM import */var cozy_client__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__("./node_modules/cozy-client/dist/index.js");
-/* ESM import */var cozy_client__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(cozy_client__WEBPACK_IMPORTED_MODULE_29__);
+/* ESM import */var react_router_dom__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__("./node_modules/react-router/dist/index.js");
+/* ESM import */var cozy_client__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__("./node_modules/cozy-client/dist/index.js");
+/* ESM import */var cozy_client__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(cozy_client__WEBPACK_IMPORTED_MODULE_28__);
 /* ESM import */var cozy_flags__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./node_modules/cozy-flags/dist/index.browser.js");
-/* ESM import */var cozy_sharing__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__("./node_modules/cozy-sharing/dist/hooks/useSharingContext.js");
-/* ESM import */var cozy_sharing__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__("./node_modules/cozy-sharing/dist/providers/NativeFileSharingProvider.js");
-/* ESM import */var cozy_sharing__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__("./node_modules/cozy-sharing/dist/actions/shareNative.js");
-/* ESM import */var cozy_ui_transpiled_react_ActionsMenu_Actions__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/ActionsMenu/Actions/helpers.js");
-/* ESM import */var cozy_ui_transpiled_react_Layout__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/Layout/Layout.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_Alert__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Alert/index.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Breakpoints/index.js");
-/* ESM import */var cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/I18n/index.js");
+/* ESM import */var cozy_sharing__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__("./node_modules/cozy-sharing/dist/hooks/useSharingContext.js");
+/* ESM import */var cozy_sharing__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__("./node_modules/cozy-sharing/dist/providers/NativeFileSharingProvider.js");
+/* ESM import */var cozy_sharing__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__("./node_modules/cozy-sharing/dist/actions/shareNative.js");
+/* ESM import */var cozy_ui_transpiled_react_ActionsMenu_Actions__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/ActionsMenu/Actions/helpers.js");
+/* ESM import */var cozy_ui_transpiled_react_Layout__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/Layout/Layout.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_Alert__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Alert/index.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/Breakpoints/index.js");
+/* ESM import */var cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__("./node_modules/cozy-ui/transpiled/react/providers/I18n/index.js");
 /* ESM import */var _Folder_FolderView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./src/modules/views/Folder/FolderView.jsx");
 /* ESM import */var _Folder_FolderViewBody__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./src/modules/views/Folder/FolderViewBody.jsx");
 /* ESM import */var _Folder_FolderViewHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./src/modules/views/Folder/FolderViewHeader.jsx");
@@ -45918,24 +45814,22 @@ __webpack_require__.d(__webpack_exports__, {
 /* ESM import */var _constants_config__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./src/constants/config.js");
 /* ESM import */var _hooks__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("./src/hooks/index.js");
 /* ESM import */var _hooks_useKeyboardShortcuts__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("./src/hooks/useKeyboardShortcuts.tsx");
-/* ESM import */var _hooks_useRecentFiles__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("./src/hooks/useRecentFiles.jsx");
-/* ESM import */var _lib_ModalContext__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__("./src/lib/ModalContext.tsx");
-/* ESM import */var _modules_actions__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__("./src/modules/actions/index.js");
-/* ESM import */var _modules_actions_components_addToFavorites__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__("./src/modules/actions/components/addToFavorites.tsx");
-/* ESM import */var _modules_actions_components_moveTo__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__("./src/modules/actions/components/moveTo.jsx");
-/* ESM import */var _modules_actions_components_removeFromFavorites__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__("./src/modules/actions/components/removeFromFavorites.tsx");
-/* ESM import */var _modules_breadcrumb_components_MobileAwareBreadcrumb__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__("./src/modules/breadcrumb/components/MobileAwareBreadcrumb.jsx");
-/* ESM import */var _modules_certifications__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__("./src/modules/certifications/index.jsx");
-/* ESM import */var _modules_certifications_useExtraColumns__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__("./src/modules/certifications/useExtraColumns.jsx");
-/* ESM import */var _modules_drive_AddMenu_AddMenuProvider__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__("./src/modules/drive/AddMenu/AddMenuProvider.jsx");
-/* ESM import */var _modules_drive_FabWithAddMenuContext__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__("./src/modules/drive/FabWithAddMenuContext.jsx");
-/* ESM import */var _modules_drive_Toolbar__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__("./src/modules/drive/Toolbar/index.jsx");
-/* ESM import */var _modules_selection_SelectionProvider__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__("./src/modules/selection/SelectionProvider.jsx");
-/* ESM import */var _queries__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__("./src/queries/index.ts");
+/* ESM import */var _lib_ModalContext__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("./src/lib/ModalContext.tsx");
+/* ESM import */var _modules_actions__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__("./src/modules/actions/index.js");
+/* ESM import */var _modules_actions_components_addToFavorites__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__("./src/modules/actions/components/addToFavorites.tsx");
+/* ESM import */var _modules_actions_components_moveTo__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__("./src/modules/actions/components/moveTo.jsx");
+/* ESM import */var _modules_actions_components_removeFromFavorites__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__("./src/modules/actions/components/removeFromFavorites.tsx");
+/* ESM import */var _modules_breadcrumb_components_MobileAwareBreadcrumb__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__("./src/modules/breadcrumb/components/MobileAwareBreadcrumb.jsx");
+/* ESM import */var _modules_certifications__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__("./src/modules/certifications/index.jsx");
+/* ESM import */var _modules_certifications_useExtraColumns__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__("./src/modules/certifications/useExtraColumns.jsx");
+/* ESM import */var _modules_drive_AddMenu_AddMenuProvider__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__("./src/modules/drive/AddMenu/AddMenuProvider.jsx");
+/* ESM import */var _modules_drive_FabWithAddMenuContext__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__("./src/modules/drive/FabWithAddMenuContext.jsx");
+/* ESM import */var _modules_drive_Toolbar__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__("./src/modules/drive/Toolbar/index.jsx");
+/* ESM import */var _modules_selection_SelectionProvider__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__("./src/modules/selection/SelectionProvider.jsx");
+/* ESM import */var _queries__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__("./src/queries/index.ts");
 /* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("./node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
 
 var _s = $RefreshSig$();
-
 
 
 
@@ -45975,33 +45869,34 @@ const desktopExtraColumnsNames = [
 const mobileExtraColumnsNames = [];
 const RecentView = ()=>{
     _s();
-    const navigate = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_26__.useNavigate)();
-    const { pathname } = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_26__.useLocation)();
-    const { t, lang } = (0,cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_27__.useI18n)();
-    const { isMobile } = (0,cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_28__["default"])();
-    const client = (0,cozy_client__WEBPACK_IMPORTED_MODULE_29__.useClient)();
-    const { pushModal, popModal } = (0,_lib_ModalContext__WEBPACK_IMPORTED_MODULE_13__.useModalContext)();
-    const { isSelectionBarVisible, toggleSelectAllItems, isSelectAll } = (0,_modules_selection_SelectionProvider__WEBPACK_IMPORTED_MODULE_24__.useSelectionContext)();
-    const sharingContext = (0,cozy_sharing__WEBPACK_IMPORTED_MODULE_30__.useSharingContext)();
+    const navigate = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_25__.useNavigate)();
+    const { pathname } = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_25__.useLocation)();
+    const { t, lang } = (0,cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_26__.useI18n)();
+    const { isMobile } = (0,cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_27__["default"])();
+    const client = (0,cozy_client__WEBPACK_IMPORTED_MODULE_28__.useClient)();
+    const { pushModal, popModal } = (0,_lib_ModalContext__WEBPACK_IMPORTED_MODULE_12__.useModalContext)();
+    const { isSelectionBarVisible, toggleSelectAllItems, isSelectAll } = (0,_modules_selection_SelectionProvider__WEBPACK_IMPORTED_MODULE_23__.useSelectionContext)();
+    const sharingContext = (0,cozy_sharing__WEBPACK_IMPORTED_MODULE_29__.useSharingContext)();
     const { allLoaded, refresh, isOwner, byDocId } = sharingContext;
-    const { isNativeFileSharingAvailable, shareFilesNative } = (0,cozy_sharing__WEBPACK_IMPORTED_MODULE_31__.useNativeFileSharing)();
+    const { isNativeFileSharingAvailable, shareFilesNative } = (0,cozy_sharing__WEBPACK_IMPORTED_MODULE_30__.useNativeFileSharing)();
     const dispatch = (0,react_redux__WEBPACK_IMPORTED_MODULE_2__.useDispatch)();
     (0,_components_useHead__WEBPACK_IMPORTED_MODULE_8__["default"])();
-    const { showAlert } = (0,cozy_ui_transpiled_react_providers_Alert__WEBPACK_IMPORTED_MODULE_32__.useAlert)();
+    const { showAlert } = (0,cozy_ui_transpiled_react_providers_Alert__WEBPACK_IMPORTED_MODULE_31__.useAlert)();
     const [sortOrder, setSortOrder, isSettingsLoaded] = (0,_hooks__WEBPACK_IMPORTED_MODULE_10__.useFolderSort)(_constants_config__WEBPACK_IMPORTED_MODULE_9__.RECENT_FOLDER_ID);
-    const extraColumnsNames = (0,_modules_certifications__WEBPACK_IMPORTED_MODULE_19__.makeExtraColumnsNamesFromMedia)({
+    const extraColumnsNames = (0,_modules_certifications__WEBPACK_IMPORTED_MODULE_18__.makeExtraColumnsNamesFromMedia)({
         isMobile,
         desktopExtraColumnsNames,
         mobileExtraColumnsNames
     });
-    const extraColumns = (0,_modules_certifications_useExtraColumns__WEBPACK_IMPORTED_MODULE_20__.useExtraColumns)({
+    const extraColumns = (0,_modules_certifications_useExtraColumns__WEBPACK_IMPORTED_MODULE_19__.useExtraColumns)({
         columnsNames: extraColumnsNames,
-        queryBuilder: _queries__WEBPACK_IMPORTED_MODULE_25__.buildRecentWithMetadataAttributeQuery
+        queryBuilder: _queries__WEBPACK_IMPORTED_MODULE_24__.buildRecentWithMetadataAttributeQuery
     });
-    const recentsResult = (0,_hooks_useRecentFiles__WEBPACK_IMPORTED_MODULE_12__["default"])();
+    const query = (0,_queries__WEBPACK_IMPORTED_MODULE_24__.buildRecentQuery)();
+    const result = (0,cozy_client__WEBPACK_IMPORTED_MODULE_28__.useQuery)(query.definition, query.options);
     (0,_hooks_useKeyboardShortcuts__WEBPACK_IMPORTED_MODULE_11__.useKeyboardShortcuts)({
         client,
-        items: (recentsResult === null || recentsResult === void 0 ? void 0 : recentsResult.data) || [],
+        items: (result === null || result === void 0 ? void 0 : result.data) || [],
         sharingContext,
         allowCopy: false,
         pushModal,
@@ -46028,32 +45923,32 @@ const RecentView = ()=>{
         isMobile,
         isNativeFileSharingAvailable,
         shareFilesNative,
-        selectAll: ()=>toggleSelectAllItems((recentsResult === null || recentsResult === void 0 ? void 0 : recentsResult.data) || []),
+        selectAll: ()=>toggleSelectAllItems(result.data),
         isSelectAll
     };
-    const actions = (0,cozy_ui_transpiled_react_ActionsMenu_Actions__WEBPACK_IMPORTED_MODULE_33__.makeActions)([
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.selectAllItems,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.share,
-        cozy_sharing__WEBPACK_IMPORTED_MODULE_34__.shareNative,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.download,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.hr,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.rename,
-        _modules_actions_components_moveTo__WEBPACK_IMPORTED_MODULE_16__.moveTo,
-        _modules_actions_components_addToFavorites__WEBPACK_IMPORTED_MODULE_15__.addToFavorites,
-        _modules_actions_components_removeFromFavorites__WEBPACK_IMPORTED_MODULE_17__.removeFromFavorites,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.infos,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.hr,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.versions,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.hr,
-        _modules_actions__WEBPACK_IMPORTED_MODULE_14__.trash
+    const actions = (0,cozy_ui_transpiled_react_ActionsMenu_Actions__WEBPACK_IMPORTED_MODULE_32__.makeActions)([
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.selectAllItems,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.share,
+        cozy_sharing__WEBPACK_IMPORTED_MODULE_33__.shareNative,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.download,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.hr,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.rename,
+        _modules_actions_components_moveTo__WEBPACK_IMPORTED_MODULE_15__.moveTo,
+        _modules_actions_components_addToFavorites__WEBPACK_IMPORTED_MODULE_14__.addToFavorites,
+        _modules_actions_components_removeFromFavorites__WEBPACK_IMPORTED_MODULE_16__.removeFromFavorites,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.infos,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.hr,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.versions,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.hr,
+        _modules_actions__WEBPACK_IMPORTED_MODULE_13__.trash
     ], actionsOptions);
     return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Folder_FolderView__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_Layout__WEBPACK_IMPORTED_MODULE_35__.Content, {
+        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(cozy_ui_transpiled_react_Layout__WEBPACK_IMPORTED_MODULE_34__.Content, {
             className: isMobile ? '' : 'u-pt-1',
             children: [
                 /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Folder_FolderViewHeader__WEBPACK_IMPORTED_MODULE_6__["default"], {
                     children: [
-                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_breadcrumb_components_MobileAwareBreadcrumb__WEBPACK_IMPORTED_MODULE_18__.MobileAwareBreadcrumb, {
+                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_breadcrumb_components_MobileAwareBreadcrumb__WEBPACK_IMPORTED_MODULE_17__.MobileAwareBreadcrumb, {
                             path: [
                                 {
                                     name: t('breadcrumb.title_recent')
@@ -46061,27 +45956,27 @@ const RecentView = ()=>{
                             ]
                         }, void 0, false, {
                             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                            lineNumber: 144,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, undefined),
-                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_drive_Toolbar__WEBPACK_IMPORTED_MODULE_23__["default"], {
+                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_drive_Toolbar__WEBPACK_IMPORTED_MODULE_22__["default"], {
                             canUpload: false,
                             canCreateFolder: false
                         }, void 0, false, {
                             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                            lineNumber: 145,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                    lineNumber: 143,
+                    lineNumber: 146,
                     columnNumber: 9
                 }, undefined),
                 (0,cozy_flags__WEBPACK_IMPORTED_MODULE_3__["default"])('drive.virtualization.enabled') && !isMobile ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Folder_virtualized_FolderViewBody__WEBPACK_IMPORTED_MODULE_7__["default"], {
                     actions: actions,
                     queryResults: [
-                        recentsResult
+                        result
                     ],
                     withFilePath: true,
                     extraColumns: extraColumns,
@@ -46092,27 +45987,27 @@ const RecentView = ()=>{
                     }
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                    lineNumber: 148,
+                    lineNumber: 151,
                     columnNumber: 11
                 }, undefined) : /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Folder_FolderViewBody__WEBPACK_IMPORTED_MODULE_5__["default"], {
                     actions: actions,
                     queryResults: [
-                        recentsResult
+                        result
                     ],
                     canSort: false,
                     withFilePath: true,
                     extraColumns: extraColumns
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                    lineNumber: 160,
+                    lineNumber: 163,
                     columnNumber: 11
                 }, undefined),
-                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_26__.Outlet, {}, void 0, false, {
+                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_25__.Outlet, {}, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                    lineNumber: 168,
+                    lineNumber: 171,
                     columnNumber: 9
                 }, undefined),
-                isMobile && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_drive_AddMenu_AddMenuProvider__WEBPACK_IMPORTED_MODULE_21__["default"], {
+                isMobile && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_drive_AddMenu_AddMenuProvider__WEBPACK_IMPORTED_MODULE_20__["default"], {
                     canCreateFolder: true,
                     canUpload: true,
                     disabled: false,
@@ -46120,47 +46015,47 @@ const RecentView = ()=>{
                     isSelectionBarVisible: isSelectionBarVisible,
                     isPublic: false,
                     refreshFolderContent: ()=>{},
-                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_drive_FabWithAddMenuContext__WEBPACK_IMPORTED_MODULE_22__["default"], {
+                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_modules_drive_FabWithAddMenuContext__WEBPACK_IMPORTED_MODULE_21__["default"], {
                         noSidebar: false
                     }, void 0, false, {
                         fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                        lineNumber: 179,
+                        lineNumber: 182,
                         columnNumber: 13
                     }, undefined)
                 }, void 0, false, {
                     fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-                    lineNumber: 170,
+                    lineNumber: 173,
                     columnNumber: 11
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-            lineNumber: 142,
+            lineNumber: 145,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "/home/doubleface/Workspace/cozy-drive/src/modules/views/Recent/index.jsx",
-        lineNumber: 141,
+        lineNumber: 144,
         columnNumber: 5
     }, undefined);
 };
-_s(RecentView, "ZpVEkOHOvIDdHVjCgIV6vHxWasY=", false, function() {
+_s(RecentView, "0fYiQLjjPL74AkozHfWgIzBG5Fc=", false, function() {
     return [
-        react_router_dom__WEBPACK_IMPORTED_MODULE_26__.useNavigate,
-        react_router_dom__WEBPACK_IMPORTED_MODULE_26__.useLocation,
-        cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_27__.useI18n,
-        cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_28__["default"],
-        cozy_client__WEBPACK_IMPORTED_MODULE_29__.useClient,
-        _lib_ModalContext__WEBPACK_IMPORTED_MODULE_13__.useModalContext,
-        _modules_selection_SelectionProvider__WEBPACK_IMPORTED_MODULE_24__.useSelectionContext,
-        cozy_sharing__WEBPACK_IMPORTED_MODULE_30__.useSharingContext,
-        cozy_sharing__WEBPACK_IMPORTED_MODULE_31__.useNativeFileSharing,
+        react_router_dom__WEBPACK_IMPORTED_MODULE_25__.useNavigate,
+        react_router_dom__WEBPACK_IMPORTED_MODULE_25__.useLocation,
+        cozy_ui_transpiled_react_providers_I18n__WEBPACK_IMPORTED_MODULE_26__.useI18n,
+        cozy_ui_transpiled_react_providers_Breakpoints__WEBPACK_IMPORTED_MODULE_27__["default"],
+        cozy_client__WEBPACK_IMPORTED_MODULE_28__.useClient,
+        _lib_ModalContext__WEBPACK_IMPORTED_MODULE_12__.useModalContext,
+        _modules_selection_SelectionProvider__WEBPACK_IMPORTED_MODULE_23__.useSelectionContext,
+        cozy_sharing__WEBPACK_IMPORTED_MODULE_29__.useSharingContext,
+        cozy_sharing__WEBPACK_IMPORTED_MODULE_30__.useNativeFileSharing,
         react_redux__WEBPACK_IMPORTED_MODULE_2__.useDispatch,
         _components_useHead__WEBPACK_IMPORTED_MODULE_8__["default"],
-        cozy_ui_transpiled_react_providers_Alert__WEBPACK_IMPORTED_MODULE_32__.useAlert,
+        cozy_ui_transpiled_react_providers_Alert__WEBPACK_IMPORTED_MODULE_31__.useAlert,
         _hooks__WEBPACK_IMPORTED_MODULE_10__.useFolderSort,
-        _modules_certifications_useExtraColumns__WEBPACK_IMPORTED_MODULE_20__.useExtraColumns,
-        _hooks_useRecentFiles__WEBPACK_IMPORTED_MODULE_12__["default"],
+        _modules_certifications_useExtraColumns__WEBPACK_IMPORTED_MODULE_19__.useExtraColumns,
+        cozy_client__WEBPACK_IMPORTED_MODULE_28__.useQuery,
         _hooks_useKeyboardShortcuts__WEBPACK_IMPORTED_MODULE_11__.useKeyboardShortcuts
     ];
 });
@@ -50696,7 +50591,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("053b276cd05bda8c")
+__webpack_require__.h = () => ("6a0bf19eac072440")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {
