@@ -11,7 +11,7 @@ import {
 import { makeFilePickerFileEntry } from './FilePicker/payload'
 import {
   getOrCreateSharingLink,
-  makeTemporaryDownloadLink
+  makeTemporaryDownloadLinks
 } from './FilePicker/sharing'
 
 import logger from '@/lib/logger'
@@ -25,36 +25,49 @@ const Picker = ({ service, intent }) => {
     service.cancel()
   }
 
-  const handlePick = async (fileId, linkMode) => {
-    let file = null
-    try {
-      const { data } = await client.query(Q('io.cozy.files').getById(fileId), {
-        as: `picker-confirm-${fileId}`,
-        // Always go to the network — the file might have been deleted
-        // between listing and confirmation.
-        fetchPolicy: fetchPolicies.olderThan(0)
-      })
-      file = data ?? null
-    } catch {
-      // file stays null
-    }
+  const handlePick = async (fileIds, linkMode) => {
+    const selectedFileIds = Array.isArray(fileIds) ? fileIds : [fileIds]
+    const files = []
 
-    if (!file) {
-      return filePickerErrorCodes.ITEM_NOT_FOUND
+    for (const fileId of selectedFileIds) {
+      try {
+        const { data } = await client.query(
+          Q('io.cozy.files').getById(fileId),
+          {
+            as: `picker-confirm-${fileId}`,
+            // Always go to the network — the file might have been deleted
+            // between listing and confirmation.
+            fetchPolicy: fetchPolicies.olderThan(0)
+          }
+        )
+        if (!data) {
+          return filePickerErrorCodes.ITEM_NOT_FOUND
+        }
+        files.push(data)
+      } catch {
+        return filePickerErrorCodes.ITEM_NOT_FOUND
+      }
     }
 
     try {
       if (linkMode === filePickerLinkModes.TEMPORARY_DOWNLOAD_LINK) {
-        const downloadLink = await makeTemporaryDownloadLink(client, file)
+        const downloadLinks = await makeTemporaryDownloadLinks(client, files)
+        const entries = files.map((file, index) =>
+          makeFilePickerFileEntry(file, { downloadLink: downloadLinks[index] })
+        )
 
-        service.terminate([makeFilePickerFileEntry(file, { downloadLink })])
+        service.terminate(entries)
         return null
       }
 
-      // Try to reuse an existing sharing link before creating a new one
-      const sharingLink = await getOrCreateSharingLink(client, file)
+      const entries = []
+      for (const file of files) {
+        // Try to reuse an existing sharing link before creating a new one
+        const sharingLink = await getOrCreateSharingLink(client, file)
+        entries.push(makeFilePickerFileEntry(file, { sharingLink }))
+      }
 
-      service.terminate([makeFilePickerFileEntry(file, { sharingLink })])
+      service.terminate(entries)
       return null
     } catch (error) {
       logger.warn('FilePicker link generation failed', error)
@@ -69,6 +82,7 @@ const Picker = ({ service, intent }) => {
       onChange={handlePick}
       onClose={handleClose}
       filePickerConfig={filePickerConfig}
+      multiple
     />
   )
 }
