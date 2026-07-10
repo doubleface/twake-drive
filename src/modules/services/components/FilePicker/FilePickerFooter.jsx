@@ -1,4 +1,4 @@
-import { Icon } from '@linagora/twake-icons'
+import { Attachment, Cross, Icon, Link } from '@linagora/twake-icons'
 import { filesize } from 'filesize'
 import PropTypes from 'prop-types'
 import React, { memo } from 'react'
@@ -33,7 +33,14 @@ const FilePickerFooter = ({
     (downloadLinkAction.label ??
       t('FilePicker.footer.buttons.temporaryDownloadLink'))
 
-  const renderAction = (label, state, actionConfig, onClick, testId, icon) => {
+  const renderAction = (
+    label,
+    state,
+    actionConfig,
+    onClick,
+    testId,
+    IconComponent
+  ) => {
     if (!label) return null
 
     const button = (
@@ -41,7 +48,7 @@ const FilePickerFooter = ({
         data-testid={testId}
         label={
           <span className="u-flex u-flex-items-center">
-            <Icon icon={icon} size={16} />
+            <Icon icon={IconComponent} size={16} />
             <span className="u-ml-half">{label}</span>
           </span>
         }
@@ -75,7 +82,7 @@ const FilePickerFooter = ({
       {selectedCount > 0 ? (
         <Box className="u-flex u-flex-items-center">
           <IconButton onClick={clearSelection} size="small">
-            <Icon icon="cross" size={16} />
+            <Icon icon={Cross} size={16} />
           </IconButton>
           <Typography variant="body1" className="u-ml-half">
             {selectedCount} {t('SelectionBar.selected_count', selectedCount)}
@@ -84,23 +91,25 @@ const FilePickerFooter = ({
       ) : (
         <span />
       )}
-      <Box className="u-flex u-flex-items-center" gap="1rem">
+      <Box className="u-flex u-flex-items-center">
         {renderAction(
           downloadLinkLabel,
           downloadLinkState,
           downloadLinkAction,
           () => onConfirm(filePickerLinkModes.TEMPORARY_DOWNLOAD_LINK),
           'temporary-download-link-btn',
-          'attachment'
+          Attachment
         )}
-        {renderAction(
-          publicLinkLabel,
-          publicLinkState,
-          publicLinkAction,
-          () => onConfirm(filePickerLinkModes.PUBLIC_LINK),
-          'public-link-btn',
-          'link'
-        )}
+        <span className="u-ml-1">
+          {renderAction(
+            publicLinkLabel,
+            publicLinkState,
+            publicLinkAction,
+            () => onConfirm(filePickerLinkModes.PUBLIC_LINK),
+            'public-link-btn',
+            Link
+          )}
+        </span>
       </Box>
     </Box>
   )
