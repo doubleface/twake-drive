@@ -727,6 +727,14 @@
         "temporaryDownloadLink": "Thêm dưới dạng tệp đính kèm"
       }
     },
+    "linkAccess": {
+      "title": "Thiết lập quyền truy cập liên kết",
+      "anyoneWithLink": "Bất kỳ ai có liên kết đều có thể truy cập các mục này.",
+      "viewer": "Người xem",
+      "editor": "Người chỉnh sửa",
+      "cancel": "Hủy",
+      "confirm": "Thêm liên kết"
+    },
     "constraints": {
       "disabledReasons": {
         "folderNotAllowed": "Thư mục không được phép cho hành động này",

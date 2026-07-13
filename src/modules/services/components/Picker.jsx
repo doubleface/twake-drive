@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Q, useClient, fetchPolicies } from 'cozy-client'
+import { useSharingContext } from 'cozy-sharing'
 
 import FilePicker from './FilePicker'
 import { getFilePickerConfig } from './FilePicker/config'
@@ -18,6 +19,7 @@ import logger from '@/lib/logger'
 
 const Picker = ({ service, intent }) => {
   const client = useClient()
+  const { shareByLink, updateDocumentPermissions } = useSharingContext()
   const serviceData = service.getData?.()
   const filePickerConfig = getFilePickerConfig(intent, serviceData)
 
@@ -25,7 +27,7 @@ const Picker = ({ service, intent }) => {
     service.cancel()
   }
 
-  const handlePick = async (fileIds, linkMode) => {
+  const handlePick = async (fileIds, linkMode, linkAccess) => {
     const selectedFileIds = Array.isArray(fileIds) ? fileIds : [fileIds]
     const files = []
 
@@ -62,8 +64,12 @@ const Picker = ({ service, intent }) => {
 
       const entries = []
       for (const file of files) {
-        // Try to reuse an existing sharing link before creating a new one
-        const sharingLink = await getOrCreateSharingLink(client, file)
+        const sharingLink = await getOrCreateSharingLink(
+          client,
+          file,
+          { shareByLink, updateDocumentPermissions },
+          linkAccess
+        )
         entries.push(makeFilePickerFileEntry(file, { sharingLink }))
       }
 

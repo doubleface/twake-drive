@@ -760,6 +760,14 @@
         "temporaryDownloadLink": "Ajouter en pièce jointe"
       }
     },
+    "linkAccess": {
+      "title": "Définir l’accès au lien",
+      "anyoneWithLink": "Toute personne disposant du lien peut accéder à ces éléments.",
+      "viewer": "Lecteur",
+      "editor": "Éditeur",
+      "cancel": "Annuler",
+      "confirm": "Ajouter des liens"
+    },
     "constraints": {
       "disabledReasons": {
         "folderNotAllowed": "Les dossiers ne sont pas autorisés pour cette action",

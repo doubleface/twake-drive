@@ -727,6 +727,14 @@
         "temporaryDownloadLink": "Добавить как вложение"
       }
     },
+    "linkAccess": {
+      "title": "Настроить доступ по ссылке",
+      "anyoneWithLink": "Все, у кого есть ссылка, могут получить доступ к этим элементам.",
+      "viewer": "Читатель",
+      "editor": "Редактор",
+      "cancel": "Отмена",
+      "confirm": "Добавить ссылки"
+    },
     "constraints": {
       "disabledReasons": {
         "folderNotAllowed": "Folders are not allowed for this action",

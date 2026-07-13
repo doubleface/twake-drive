@@ -138,6 +138,27 @@ jest.mock(
     )
 )
 
+jest.mock(
+  './LinkAccessModal',
+  () =>
+    ({ selectedItems, onCancel, onConfirm, error }) => (
+      <div data-testid="link-access-modal">
+        <span>{selectedItems.map(item => item.name).join(', ')}</span>
+        {error && <span data-testid="link-access-error">{error}</span>}
+        <button type="button" onClick={onCancel}>
+          Cancel link access
+        </button>
+        <button
+          type="button"
+          data-testid="confirm-link-access-btn"
+          onClick={() => onConfirm({ editingRights: 'write' })}
+        >
+          Confirm link access
+        </button>
+      </div>
+    )
+)
+
 const FilePickerWrapper = ({ children }) => (
   <SelectionProvider clearOnLocationChange={false}>
     {children}
@@ -190,7 +211,7 @@ describe('FilePicker', () => {
     expect(getByTestId('public-link-btn')).toBeInTheDocument()
   })
 
-  it('should keep simple file selection until an action is chosen', async () => {
+  it('should collect link access before confirming a public link', async () => {
     const { getByTestId } = setup()
 
     expect(getByTestId('public-link-btn')).toBeDisabled()
@@ -204,12 +225,34 @@ describe('FilePicker', () => {
 
     fireEvent.click(getByTestId('public-link-btn'))
 
+    expect(getByTestId('link-access-modal')).toHaveTextContent('file.pdf')
+    expect(mockOnChange).not.toHaveBeenCalled()
+
+    fireEvent.click(getByTestId('confirm-link-access-btn'))
+
     await waitFor(() =>
       expect(mockOnChange).toHaveBeenCalledWith(
         'file-id',
-        filePickerLinkModes.PUBLIC_LINK
+        filePickerLinkModes.PUBLIC_LINK,
+        { editingRights: 'write' }
       )
     )
+  })
+
+  it('should keep link access open when link generation fails', async () => {
+    mockOnChange.mockResolvedValueOnce('SHARING_LINK_FAILED')
+    const { getByTestId } = setup()
+
+    fireEvent.click(getByTestId('select-file-btn'))
+    fireEvent.click(getByTestId('public-link-btn'))
+    fireEvent.click(getByTestId('confirm-link-access-btn'))
+
+    await waitFor(() =>
+      expect(getByTestId('link-access-error')).toHaveTextContent(
+        'SHARING_LINK_FAILED'
+      )
+    )
+    expect(getByTestId('link-access-modal')).toBeInTheDocument()
   })
 
   it('should disable temporary download link when a folder is selected', () => {
@@ -221,17 +264,19 @@ describe('FilePicker', () => {
     expect(getByTestId('temporary-download-link-btn')).toBeDisabled()
   })
 
-  it('should keep multiple selected file ids until an action is chosen', async () => {
+  it('should preserve multiple selected file ids while collecting link access', async () => {
     const { getByTestId } = setup({ multiple: true })
 
     fireEvent.click(getByTestId('select-file-btn'))
     fireEvent.click(getByTestId('select-second-file-btn'))
     fireEvent.click(getByTestId('public-link-btn'))
+    fireEvent.click(getByTestId('confirm-link-access-btn'))
 
     await waitFor(() =>
       expect(mockOnChange).toHaveBeenCalledWith(
         ['file-id', 'second-file-id'],
-        filePickerLinkModes.PUBLIC_LINK
+        filePickerLinkModes.PUBLIC_LINK,
+        { editingRights: 'write' }
       )
     )
   })

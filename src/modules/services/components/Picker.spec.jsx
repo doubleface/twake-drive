@@ -15,6 +15,8 @@ const mockGetStackClient = jest.fn()
 const mockGetDownloadLinkById = jest.fn()
 const mockFindLinksByDoctype = jest.fn()
 const mockCozyClient = jest.fn()
+const mockShareByLink = jest.fn()
+const mockUpdateDocumentPermissions = jest.fn()
 
 jest.mock('@/lib/logger', () => ({
   __esModule: true,
@@ -56,6 +58,13 @@ jest.mock('cozy-client/dist/models/sharing', () => ({
   makeSharingLink: jest.fn()
 }))
 
+jest.mock('cozy-sharing', () => ({
+  useSharingContext: () => ({
+    shareByLink: mockShareByLink,
+    updateDocumentPermissions: mockUpdateDocumentPermissions
+  })
+}))
+
 jest.mock(
   './FilePicker',
   () =>
@@ -92,6 +101,20 @@ jest.mock(
             }}
           >
             Public link
+          </button>
+          <button
+            type="button"
+            data-testid="editor-public-link-btn"
+            onClick={async () => {
+              const pickError = await onChange(
+                'file-id',
+                filePickerLinkModes.PUBLIC_LINK,
+                { editingRights: 'write' }
+              )
+              if (pickError) setError(pickError)
+            }}
+          >
+            Editor public link
           </button>
           <button
             type="button"
@@ -173,6 +196,11 @@ describe('Picker', () => {
     mockCozyClient.mockReturnValue({
       collection: () => ({ getDownloadLinkById: mockGetDownloadLinkById })
     })
+    const { generateWebLink } = require('cozy-client')
+    generateWebLink.mockImplementation(
+      ({ searchParams }) =>
+        `https://drive.example/public?sharecode=${searchParams[0][1]}`
+    )
   })
 
   afterEach(() => {
@@ -225,19 +253,48 @@ describe('Picker', () => {
     expect(getByTestId('received-multiple')).toHaveTextContent('true')
   })
 
-  it('should terminate with a bare array containing a public link entry', async () => {
+  it('should create an Editor link with the sharing provider', async () => {
     mockQuery.mockResolvedValue({ data: mockFile })
-    makeSharingLink.mockResolvedValue(
-      'https://drive.example/public?sharecode=abc'
-    )
+    mockShareByLink.mockResolvedValue({
+      data: {
+        attributes: {
+          shortcodes: { code: 'editor-code' }
+        }
+      }
+    })
+    const { service, getByTestId } = setup()
+
+    fireEvent.click(getByTestId('editor-public-link-btn'))
+
+    await waitFor(() => expect(service.terminate).toHaveBeenCalled())
+    expect(mockShareByLink).toHaveBeenCalledWith(mockFile, {
+      verbs: ['GET', 'POST', 'PUT', 'PATCH']
+    })
+    expect(service.terminate).toHaveBeenCalledWith([
+      expect.objectContaining({
+        id: 'file-id',
+        sharingLink: expect.stringContaining('sharecode=editor-code')
+      })
+    ])
+  })
+
+  it('should terminate with a bare array containing a Viewer link entry', async () => {
+    mockQuery.mockResolvedValue({ data: mockFile })
+    mockShareByLink.mockResolvedValue({
+      data: {
+        attributes: {
+          shortcodes: { code: 'abc' }
+        }
+      }
+    })
     const { service, getByTestId } = setup()
 
     fireEvent.click(getByTestId('public-link-btn'))
 
     await waitFor(() => expect(service.terminate).toHaveBeenCalled())
-    expect(makeSharingLink).toHaveBeenCalledWith(expect.any(Object), [
-      'file-id'
-    ])
+    expect(mockShareByLink).toHaveBeenCalledWith(mockFile, {
+      verbs: ['GET']
+    })
     expect(service.terminate).toHaveBeenCalledWith([
       {
         id: 'file-id',
@@ -249,26 +306,30 @@ describe('Picker', () => {
     ])
   })
 
-  it('should terminate with a bare array containing public link entries', async () => {
+  it('should terminate with a bare array containing Viewer link entries', async () => {
     mockQuery.mockImplementation(({ id }) => {
       return Promise.resolve({
         data: id === 'file-id' ? mockFile : mockSecondFile
       })
     })
-    makeSharingLink
-      .mockResolvedValueOnce('https://drive.example/public?sharecode=abc')
-      .mockResolvedValueOnce('https://drive.example/public?sharecode=def')
+    mockShareByLink
+      .mockResolvedValueOnce({
+        data: { attributes: { shortcodes: { code: 'abc' } } }
+      })
+      .mockResolvedValueOnce({
+        data: { attributes: { shortcodes: { code: 'def' } } }
+      })
     const { service, getByTestId } = setup()
 
     fireEvent.click(getByTestId('multiple-public-link-btn'))
 
     await waitFor(() => expect(service.terminate).toHaveBeenCalled())
-    expect(makeSharingLink).toHaveBeenCalledWith(expect.any(Object), [
-      'file-id'
-    ])
-    expect(makeSharingLink).toHaveBeenCalledWith(expect.any(Object), [
-      'second-file-id'
-    ])
+    expect(mockShareByLink).toHaveBeenCalledWith(mockFile, {
+      verbs: ['GET']
+    })
+    expect(mockShareByLink).toHaveBeenCalledWith(mockSecondFile, {
+      verbs: ['GET']
+    })
     expect(service.terminate).toHaveBeenCalledWith([
       {
         id: 'file-id',
@@ -402,6 +463,7 @@ describe('Picker', () => {
 
   it('should reuse an existing sharing link instead of creating a new one', async () => {
     mockQuery.mockResolvedValue({ data: mockFile })
+    mockUpdateDocumentPermissions.mockResolvedValue([{}])
     mockFindLinksByDoctype.mockResolvedValue({
       data: [
         {
@@ -427,7 +489,11 @@ describe('Picker', () => {
     fireEvent.click(getByTestId('public-link-btn'))
 
     await waitFor(() => expect(service.terminate).toHaveBeenCalled())
-    expect(makeSharingLink).not.toHaveBeenCalled()
+    expect(mockShareByLink).not.toHaveBeenCalled()
+    expect(mockUpdateDocumentPermissions).toHaveBeenCalledWith(
+      { ...mockFile, id: 'file-id' },
+      { verbs: ['GET'], expiresAt: '', password: '' }
+    )
     expect(service.terminate).toHaveBeenCalledWith([
       {
         id: 'file-id',
@@ -441,7 +507,7 @@ describe('Picker', () => {
 
   it('should return a SHARING_LINK_FAILED error code when public link generation fails', async () => {
     mockQuery.mockResolvedValue({ data: mockFile })
-    makeSharingLink.mockRejectedValue(new Error('sharing failed'))
+    mockShareByLink.mockRejectedValue(new Error('sharing failed'))
     const { service, getByTestId, findByTestId } = setup()
 
     fireEvent.click(getByTestId('public-link-btn'))

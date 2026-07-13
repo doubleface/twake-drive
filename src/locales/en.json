@@ -763,6 +763,14 @@
         "temporaryDownloadLink": "Add as attachment"
       }
     },
+    "linkAccess": {
+      "title": "Set link access",
+      "anyoneWithLink": "Anyone with the link can access these items.",
+      "viewer": "Viewer",
+      "editor": "Editor",
+      "cancel": "Cancel",
+      "confirm": "Add links"
+    },
     "constraints": {
       "disabledReasons": {
         "folderNotAllowed": "Folders are not allowed for this action",

@@ -6,7 +6,8 @@ import { FixedDialog } from 'cozy-ui/transpiled/react/CozyDialogs'
 import FilePickerBody from './FilePickerBody'
 import FilePickerFooter from './FilePickerFooter'
 import FilePickerHeader from './FilePickerHeader'
-import { defaultFilePickerConfig } from './constants'
+import LinkAccessModal from './LinkAccessModal'
+import { defaultFilePickerConfig, filePickerLinkModes } from './constants'
 import { getActionDisabledState } from './constraints'
 import { getCompliantTypes } from './helpers'
 import styles from './styles.styl'
@@ -24,6 +25,8 @@ const FilePicker = ({
 }) => {
   const [folderId, setFolderId] = useState(ROOT_DIR_ID)
   const [error, setError] = useState(null)
+  const [isLinkAccessOpen, setIsLinkAccessOpen] = useState(false)
+  const [isSubmittingLink, setIsSubmittingLink] = useState(false)
   const { selectedItems, clearSelection } = useSelectionContext()
   const itemsIdsSelected = useMemo(
     () => selectedItems.map(item => item._id),
@@ -45,16 +48,43 @@ const FilePicker = ({
     clearSelection()
   }
 
-  const handleConfirm = async linkMode => {
+  const handleConfirm = async (linkMode, linkAccess = null) => {
     setError(null)
     const value = multiple ? itemsIdsSelected : itemsIdsSelected[0]
-    const pickError = await onChange(value, linkMode)
+    const pickError = await onChange(value, linkMode, linkAccess)
     if (pickError) {
       setError(pickError)
-      return
+      return pickError
     }
 
     clearSelection()
+    return null
+  }
+
+  const handleOpenLinkAccess = () => {
+    setError(null)
+    setIsLinkAccessOpen(true)
+  }
+
+  const handleLinkAccessConfirm = async linkAccess => {
+    setIsSubmittingLink(true)
+    const pickError = await handleConfirm(
+      filePickerLinkModes.PUBLIC_LINK,
+      linkAccess
+    )
+    setIsSubmittingLink(false)
+    if (!pickError) {
+      setIsLinkAccessOpen(false)
+    }
+  }
+
+  const handleFooterConfirm = linkMode => {
+    if (linkMode === filePickerLinkModes.PUBLIC_LINK) {
+      handleOpenLinkAccess()
+      return
+    }
+
+    handleConfirm(linkMode)
   }
 
   const itemTypesAccepted = getCompliantTypes(accept)
@@ -68,42 +98,54 @@ const FilePicker = ({
     : { disabled: true, reasonKey: null }
 
   return (
-    <FixedDialog
-      open
-      disableGutters
-      onClose={handleClose}
-      size="large"
-      disableTitleAutoPadding
-      classes={{ paper: styles.filePickerDialogPaper }}
-      componentsProps={{
-        dialogTitle: {
-          className: 'u-pl-1-half'
-        },
-        dialogContent: {
-          className: 'u-pos-relative'
+    <>
+      <FixedDialog
+        open
+        disableGutters
+        onClose={handleClose}
+        size="large"
+        disableTitleAutoPadding
+        classes={{ paper: styles.filePickerDialogPaper }}
+        componentsProps={{
+          dialogTitle: {
+            className: 'u-pl-1-half'
+          },
+          dialogContent: {
+            className: 'u-pos-relative'
+          }
+        }}
+        title={<FilePickerHeader />}
+        content={
+          <FilePickerBody
+            navigateTo={navigateTo}
+            folderId={folderId}
+            itemTypesAccepted={itemTypesAccepted}
+            multiple={multiple}
+            folderSelectable
+            error={error}
+          />
         }
-      }}
-      title={<FilePickerHeader />}
-      content={
-        <FilePickerBody
-          navigateTo={navigateTo}
-          folderId={folderId}
-          itemTypesAccepted={itemTypesAccepted}
-          multiple={multiple}
-          folderSelectable
+        actions={
+          <FilePickerFooter
+            onConfirm={handleFooterConfirm}
+            publicLinkState={publicLinkState}
+            downloadLinkState={downloadLinkState}
+            publicLinkAction={publicLinkAction}
+            downloadLinkAction={downloadLinkAction}
+          />
+        }
+      />
+
+      {isLinkAccessOpen && (
+        <LinkAccessModal
+          selectedItems={selectedItems}
+          onCancel={() => setIsLinkAccessOpen(false)}
+          onConfirm={handleLinkAccessConfirm}
+          busy={isSubmittingLink}
           error={error}
         />
-      }
-      actions={
-        <FilePickerFooter
-          onConfirm={handleConfirm}
-          publicLinkState={publicLinkState}
-          downloadLinkState={downloadLinkState}
-          publicLinkAction={publicLinkAction}
-          downloadLinkAction={downloadLinkAction}
-        />
-      }
-    />
+      )}
+    </>
   )
 }
 

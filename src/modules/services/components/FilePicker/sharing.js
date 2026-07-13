@@ -24,7 +24,59 @@ const getShortcode = permission => {
  */
 const isPermissionRelatedTo = (perm, file) => {
   const fileId = getFileId(file)
-  return perm.attributes?.permissions?.files?.values?.includes(fileId)
+  const fileIds = perm.attributes?.permissions?.files?.values
+  return fileIds?.length === 1 && fileIds[0] === fileId
+}
+
+const makePublicLink = (client, permission) => {
+  const sharecode = getShortcode(permission)
+  if (!sharecode) {
+    throw new Error('Sharing permission does not contain a shortcode')
+  }
+
+  return generateWebLink({
+    cozyUrl: client.getStackClient().uri,
+    searchParams: [['sharecode', sharecode]],
+    pathname: '/public',
+    slug: 'drive',
+    subDomainType: client.capabilities.flat_subdomains ? 'flat' : 'nested'
+  })
+}
+
+const getVerbs = editingRights =>
+  editingRights === 'write' ? ['GET', 'POST', 'PUT', 'PATCH'] : ['GET']
+
+const updatePermissionRules = (permission, verbs) =>
+  Object.fromEntries(
+    Object.entries(permission.attributes.permissions).map(([type, rules]) => [
+      type,
+      { ...rules, verbs }
+    ])
+  )
+
+const updateExistingSharingLink = async (
+  client,
+  file,
+  permission,
+  updateDocumentPermissions,
+  verbs
+) => {
+  const options = { verbs, expiresAt: '', password: '' }
+  const updatedPermissions = await updateDocumentPermissions(
+    { ...file, id: getFileId(file) },
+    options
+  )
+
+  if (updatedPermissions?.length > 0) {
+    return
+  }
+
+  await client
+    .collection('io.cozy.permissions')
+    .add(permission, updatePermissionRules(permission, verbs), {
+      expiresAt: options.expiresAt,
+      password: options.password
+    })
 }
 
 /**
@@ -33,7 +85,7 @@ const isPermissionRelatedTo = (perm, file) => {
  *
  * @param {object} client - CozyClient instance
  * @param {object} file - File document
- * @returns {Promise<string|null>} - The existing sharing link or null
+ * @returns {Promise<{permission: object, url: string}|null>} - The existing sharing link or null
  */
 const fetchExistingSharingLink = async (client, file) => {
   try {
@@ -49,19 +101,10 @@ const fetchExistingSharingLink = async (client, file) => {
       return null
     }
 
-    const sharecode = getShortcode(existingPermission)
-
-    if (!sharecode) {
-      return null
+    return {
+      permission: existingPermission,
+      url: makePublicLink(client, existingPermission)
     }
-
-    return generateWebLink({
-      cozyUrl: client.getStackClient().uri,
-      searchParams: [['sharecode', sharecode]],
-      pathname: '/public',
-      slug: 'drive',
-      subDomainType: client.capabilities.flat_subdomains ? 'flat' : 'nested'
-    })
   } catch {
     // Silently fail if we can't fetch existing links — we'll create a new one
     return null
@@ -73,12 +116,35 @@ const fetchExistingSharingLink = async (client, file) => {
  *
  * @param {object} client - CozyClient instance
  * @param {object} file - File document
+ * @param {object} sharing - Sharing provider operations
+ * @param {Function} sharing.shareByLink - Creates a sharing permission
+ * @param {Function} sharing.updateDocumentPermissions - Updates an existing permission
+ * @param {object} [linkAccess] - The selected link access
+ * @param {'readOnly'|'write'} [linkAccess.editingRights] - The selected role
  * @returns {Promise<string>} - The sharing link
  */
-export const getOrCreateSharingLink = async (client, file) => {
-  const existingLink = await fetchExistingSharingLink(client, file)
+export const getOrCreateSharingLink = async (
+  client,
+  file,
+  { shareByLink, updateDocumentPermissions },
+  { editingRights = 'readOnly' } = {}
+) => {
+  const existingSharingLink = await fetchExistingSharingLink(client, file)
+  const verbs = getVerbs(editingRights)
 
-  return existingLink || makeSharingLink(client, [getFileId(file)])
+  if (existingSharingLink) {
+    await updateExistingSharingLink(
+      client,
+      file,
+      existingSharingLink.permission,
+      updateDocumentPermissions,
+      verbs
+    )
+    return existingSharingLink.url
+  }
+
+  const response = await shareByLink(file, { verbs })
+  return makePublicLink(client, response.data)
 }
 
 /**
